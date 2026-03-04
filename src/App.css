@@ -1,0 +1,271 @@
+﻿:root {
+  --bg-1: #5a3a2a;
+  --bg-2: #2f1d14;
+  --ink: #2a2621;
+  --accent: #a6522b;
+  --paper: #fff9ef;
+  --paper-edge: #e2d6c5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Merriweather", Georgia, serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 10% 15%, rgba(196, 143, 102, 0.2), transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(32, 18, 12, 0.32), transparent 45%),
+    linear-gradient(160deg, var(--bg-1), var(--bg-2));
+}
+
+.app {
+  width: min(1100px, 94vw);
+  margin: 2rem auto 3rem;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0;
+  font-family: Montserrat, "Segoe UI", sans-serif;
+  color: #f7e7d0;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.subtitle {
+  margin-top: 0.4rem;
+  opacity: 0.9;
+  color: #f2dfc6;
+}
+
+.book-shell {
+  margin-top: 1.5rem;
+}
+
+.book-stage {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+.flipbook {
+  filter: drop-shadow(0 18px 30px rgba(0, 0, 0, 0.35));
+}
+
+.flip-page {
+  background: linear-gradient(90deg, var(--paper-edge), var(--paper) 7%, var(--paper) 93%, var(--paper-edge));
+  border-radius: 6px;
+  padding: clamp(1rem, 1.8vw, 1.8rem);
+  overflow: hidden;
+}
+
+.cover-page {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(166, 82, 43, 0.15), transparent 40%),
+    linear-gradient(135deg, #f3e4cc, #ead7bb);
+}
+
+.flip-page h3 {
+  margin-top: 0;
+  font-family: Montserrat, "Segoe UI", sans-serif;
+}
+
+.flip-page .chapter-title {
+  margin-bottom: 0.85rem;
+}
+
+.flip-page p {
+  line-height: 1.62;
+  white-space: pre-wrap;
+  margin: 0 0 0.45rem 0;
+}
+
+.empty-book {
+  min-height: 240px;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 249, 239, 0.9);
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.9rem;
+  color: #f7e7d0;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+}
+
+button {
+  border: 0;
+  background: var(--accent);
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: Montserrat, "Segoe UI", sans-serif;
+}
+
+button[disabled] {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.media-zone {
+  margin-top: 2rem;
+  background: rgba(255, 249, 239, 0.8);
+  border: 1px solid rgba(42, 38, 33, 0.08);
+  border-radius: 16px;
+  padding: 1rem;
+}
+
+.media-head h2 {
+  margin: 0;
+  font-family: Montserrat, "Segoe UI", sans-serif;
+}
+
+.media-grid {
+  margin-top: 0.8rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 0.8rem;
+}
+
+.tracks-grid {
+  margin-top: 0.8rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.8rem;
+}
+
+.track-card {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid rgba(42, 38, 33, 0.15);
+  padding: 0.8rem;
+}
+
+.track-card h3 {
+  margin: 0 0 0.6rem 0;
+  font-size: 1rem;
+  font-family: Montserrat, "Segoe UI", sans-serif;
+}
+
+.track-card audio {
+  width: 100%;
+}
+
+.downloads-grid {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.65rem 1rem;
+  font-family: Montserrat, "Segoe UI", sans-serif;
+  font-size: 0.95rem;
+}
+
+.media-card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(42, 38, 33, 0.15);
+}
+
+.media-card img,
+.media-card video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.media-image-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: zoom-in;
+}
+
+.media-card p {
+  margin: 0;
+  padding: 0.6rem;
+  font-size: 0.9rem;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.75);
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+
+.lightbox-content {
+  position: relative;
+  width: min(1000px, 95vw);
+  max-height: 92vh;
+  background: #111;
+  border-radius: 12px;
+  padding: 0.5rem;
+}
+
+.lightbox-content img {
+  display: block;
+  width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.lightbox-content p {
+  margin: 0.5rem 0 0;
+  color: #f7e7d0;
+  text-align: center;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  padding: 0.45rem 0.8rem;
+  font-size: 0.85rem;
+}
+
+.empty-media {
+  opacity: 0.75;
+}
+
+@media (max-width: 640px) {
+  .app {
+    width: 96vw;
+  }
+
+  .book-stage {
+    padding: 0;
+  }
+}
+

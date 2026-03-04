@@ -1,0 +1,733 @@
+﻿const BOOK_CONTENT = {
+  title: "GakÃ³ Barello y Madame VÃ©ga",
+  pages: [
+    {
+      title: "Portada",
+      text: `En Ciudad Sardina corroÃ­da por la lluvia y la podredumbre, el detective GakÃ³ Barello se ve obligado a un caso que lo arrastra al corazÃ³n de una conspiraciÃ³n biotecnolÃ³gica ligada a NÃ©ctar, Lucky Fish y el letal Simplasto-9. Exponiendo a la Ã©lite que convirtiÃ³ a la ciudad en un experimento vivo. Entre ratas mutadas, secretos familiares y un enemigo, GakÃ³ descubre que la verdad tiene un precio brutal. Esta es una historia noir de amor, culpa, supervivencia y redenciÃ³n en los mÃ¡rgenes de un mundo enfermo.`
+    },
+    {
+      title: "CapÃ­tulo 1",
+      text: `LlovÃ­a.
+Y no era una lluvia tranquila. CaÃ­a con fuerza, como si el cielo estuviera enojado, limpiando algo que no se podÃ­a ver. El agua bajaba por los techos sucia, pesada, como si arrastrara recuerdos viejos de la ciudad.
+GakÃ³ Barello estaba apoyado contra una pared de ladrillos gastados, al lado de la salida de emergencia de un club nocturno. TenÃ­a un cigarro en la boca, medio colgado, sin ganas de fumarlo. Lo tenÃ­a ahÃ­ por costumbre. Cada vez que caÃ­a un rayo, se le iluminaba la cara. Se le notaba el pelo gris, todo mojado y desordenado. TenÃ­a una cicatriz en la cara y una mirada difÃ­cil de aguantar. Era alto, llamativo. Llevaba traje y corbata, aunque todo chorreaba por la lluvia. Aun asÃ­, se lo veÃ­a elegante.
+El humo del cigarro, mezclado con el vapor del agua, formaba una especie de niebla alrededor de su cara. TenÃ­a los ojos entrecerrados. No porque tuviera sueÃ±o, sino porque estaba acostumbrado a mirar asÃ­. Nunca confiaba en nadie. Y esa noche no estaba ahÃ­ por accidente. En Ciudad Sardina, nadie anda por la calle empapÃ¡ndose porque sÃ­.
+Entonces apareciÃ³ ella.
+Las zapatillas mojadas. El pelo revuelto. TenÃ­a un sobre en la mano, envuelto en algo que parecÃ­a una bolsa vieja o papel de diario. Caminaba como alguien que viene cargando problemas. No dijo cÃ³mo se llamaba. Tampoco hacÃ­a falta. Los que buscan a GakÃ³ no lo hacen para charlar del clima.
+Se parÃ³ frente a Ã©l. Estaba empapada. Respiraba agitada. Le temblaban las manos.
+â€”Â¿Usted es Barello? â€”preguntÃ³, con voz ronca, sin mirarlo a los ojos.
+â€”Depende. Â¿Viene a matarme o a contratarme? â€”contestÃ³ Ã©l, sin moverse del rincÃ³n.
+Ella no sonriÃ³. Eso era bueno.
+Nadie sonrÃ­e cuando busca a GakÃ³.
+â€”Necesito que encuentre a alguien â€”dijo.
+â€”No soy rastreador â€”dijo Ã©lâ€”. Soy detective.
+Y la mayorÃ­a de los que desaparecenâ€¦
+...no quieren ser encontrados.`
+    },
+    {
+      title: "CapÃ­tulo 2",
+      text: `â€”Temo que eso sea parte del pasadoâ€¦â€” respondiÃ³ la felina, por fin enfrentando los dos ojos Ã¡mbar que la acorralaban. 
+GakÃ³ sabÃ­a que esa noche no terminarÃ­a hasta la Ãºltima ceniza del cigarro que pendÃ­a como una amenaza silenciosaâ€¦ afortunadamente. La espera era su oficio. 
+Ella sostenÃ­a el sobre como si quemara. Sus dedos, finos y tensos, rasgaban el envoltorio con un crujido sordo. 
+â€”Â¿AlcanzarÃ¡s a darme el sobre antes de hacerlo trizas? â€”preguntÃ³ GakÃ³ irÃ³nicamente. 
+ Al dÃ¡rselo, un cosquilleo repentino le recorriÃ³ el lomo. No era miedo; era alerta pura. Un recorrido repentino de un cosquilleo dejÃ³ en su rastro una fricciÃ³n en su pelaje. El palpitar de la felina ensordecÃ­a incluso el retumbar de las gotas, convirtiendo el fenÃ³meno en un diluvio de suspenso que acechaba desde las sombras del callejÃ³n. 
+El contenido del sobre saltaba a la vista, desesperado por revelarse. Las almohadillas de GakÃ³, sensibles como escÃ¡neres, exploraron la superficie frÃ­a y viscosa. Luego, la textura cambiÃ³: suave, carnosa, inquietamente familiarâ€¦ Sus pupilas se estrecharon. HundiÃ³ una garra en su interior. 
+Lo extrajo. 
+Un ojo, tan brilloso y pÃ¡lido como el vidrio, acompaÃ±ado de un Ãºltimo espasmo. Y junto a Ã©l, una lengua retorcida. Cortada con saÃ±a, sin cuidado. Un olor a cobre y podredumbre llenÃ³ el espacio entre ellos. FormÃ³ parte del ambiente.
+La felina ahogÃ³ un grito en un sollozo. LÃ¡grimas negras le surcaron las mejillas. No lloraba tristeza, lloraba oscuridad. 
+Pero el sobre guardaba mÃ¡s. Lo que seguÃ­a no era mÃ¡s una consecuencia, sino una posible causa: una carta. Arrugada, manchada de un rojo cobrizo. Dos lÃ­neas, escritas con tortura: 
+	â€œDejÃ© de ver lo que no debÃ­a.
+	â€œDejÃ© de decir lo que no sabÃ­a.â€`
+    },
+    {
+      title: "CapÃ­tulo 3",
+      text: `Un rayo quebrÃ³ el cielo. La sombra de los edificios se distorsiono sobre el agua estancada del callejÃ³n. Y en ese instante de luz crudaâ€¦ la felina desapareciÃ³.
+GakÃ³ parpadeÃ³ una vez, sin apuro. SabÃ­a lo que eso significaba. Con el cigarro ya apagado, pero aun colgando de su boca, arrojÃ³ la bolsa sin esfuerzo. Solo se llevÃ³ la carta.
+â€”Mierda â€”murmurÃ³ mientras exhalÃ³.
+Como si la lluvia le confirmara que esto era mÃ¡s grave de lo que parecÃ­a.
+______________
+En otro rincÃ³n de Ciudad Sardina, donde la noche era igual de oscura, la felina subiÃ³ a un coche.
+Negro. Largo. Brillante como la tapa de un ataÃºd reciÃ©n barnizado.
+No saludÃ³. Solo cerrÃ³ la puerta con un golpe seco. El cuero mojado la recibiÃ³ con indiferencia. No le importaba la humedad en sus garras ni el olor putrefacto que aÃºn la seguÃ­a como un rastro.
+Desde el otro lado, una voz suave, resbaladiza como el aceite:
+â€”Â¿Se lo creyÃ³?
+Ella ni girÃ³ el rostro. Solo apretÃ³ la mandÃ­bula.
+â€”Ya sabes cÃ³mo hago mi trabajo.
+La figura sentada a su lado, apenas visible, escabullÃ©ndose sobre la ventana que ni la luz de lo rayos dejaba entrar, deslizÃ³ una mano vestida de anillos y cicatrices hacia su muslo. La tocÃ³ con lentitud y gentileza
+â€”Â¿Se lo creyÃ³? â€”repitiÃ³. Igual de dulce. Igual de deslizante.
+Ella tragÃ³ saliva, limpiÃ³ su garganta. TosiÃ³.
+â€”SÃ­â€¦ sÃ­, se lo creyÃ³.
+Desde el espejo retrovisor, dos ojos del color de un abismo sin fondo la observaban. El conductor chofer. Un felino enorme. Ancho de espalda. Rugoso. Garras gruesas y largas de al menos cinco manÃ­es secos puestos en fila. No parpadeaba. Solo sonreÃ­a con los colmillos. Una mueca impactante.
+â€”Conteste rÃ¡pido, Madame VÃ©ga â€”gruÃ±Ã³, como si fuera la bocina oxidada de un barco en ruinas. Sin borrar la mueca de su rostro.
+El hombre felino en la sombra se inclinÃ³ hacia adelante. EncendiÃ³ un cigarro que tomÃ³ de su chaleco, con una cerilla vieja marca Lucky Fish, de esas que parecen encender el pasado, no el presente.
+Dio una calada profunda, con una calma escalofriante.
+â€”Al laboratorio â€”ordenÃ³.
+El auto arrancÃ³, como un ataÃºd sobre ruedas rodando hacia su tumba.`
+    },
+    {
+      title: "CapÃ­tulo 4",
+      text: `Se deslizaba por las venas hÃºmedas de Ciudad Sardina. El panorama mostraba una lluvia que hacÃ­a lo que podÃ­a, lavando la historia de los edificios, pero incapaz de borrar la sucia verdad que filtraban sus grietas.
+Madame VÃ©ga observaba la cortina de agua en la ventana, mientras su conciencia se encontraba anclada al peso sobre su muslo: aquella mano cargada de secretos trazaba cÃ­rculos lentos. Cada giro era un recordatorio de la posiciÃ³n en la que se encontraba, de la podredura que sostenÃ­a. 
+El sujeto anillado inclinÃ³ su perfil afilado hacia su oreja. Su voz cortÃ³ el estruendo de sus pensamientos.
+  â€”Cuando estÃ© frente a ellos, cada palabra serÃ¡ diseccionada. Cada gesto, analizado. Cada respiro, pesado â€”La presiÃ³n aumentÃ³, los anillos mordÃ­an su piel a travÃ©s de rasguÃ±osâ€” No perdonan errores. Usted sabe por quÃ© estÃ¡ aquÃ­. Su vida es un hilo, pero el de su hermanoâ€¦ lo cortamos cuando queramos â€”espetÃ³, sin una pizca de sensibilidad.
+La felina se mantuvo con la mirada fija al cristal. QuerÃ­a enfrentar su reflejo. Romperlo en aÃ±icos. Desaparecer. RecordÃ³ entonces, los ojos de GakÃ³ en el callejÃ³n. Esos ojos color Ã¡mbar no sÃ³lo se habÃ­an fijado en el horror de su contenido, sino en ella, con una intensidad que ahora, en la claustrofobia del auto, era una acusaciÃ³n muda.  Â¿HabÃ­a visto su miedo, o el rescoldo de algo que ella misma creÃ­a muerto?
+  â€”Entiendo â€”murmurÃ³. Su voz, apenas audible, fue su Ãºltimo escudo. 
+De pronto, el conductor felino gruÃ±Ã³ desde el frente, sus colmillos brillando en el retrovisor. 
+  â€”Â¿Â¡DÃ³nde estÃ¡ el paquete de los Muelles Viejos!? Â¡Sin eso, nos van a desollar vivos!
+  â€”Â¡Maldito imbÃ©cil! Â¡A la costa, rÃ¡pido! â€”decretÃ³ el felino desde la parte trasera del auto.
+El auto se detuvo al borde del abismo. Espigones rotos, grÃºas esquelÃ©ticas, cajas que prometÃ­an buques en su interior, tan grandes que la imaginaciÃ³n daba para muchas conclusionesâ€¦ y el mar azotando como una bestia encadenada. 
+El hombre anillado abriÃ³ su puerta; el viento aullÃ³ dentro, silbando peligro. El ambiente exigÃ­a distancia, sin embargo, esa noche ninguno de los involucrados querÃ­a ceder.
+  â€”BÃ¡jese, Madame VÃ©ga   â€”ordenÃ³ entre dientes aquel imponente que la acompaÃ±aba â€” Y mucho cuidado con lo que intentas. 
+Avanzaron hacia la pila de acero. A tan sÃ³lo unas huellas, el mar devorador; adelante, sombras. Madame VÃ©ga se adentrÃ³ entre los contenedores. La lluvia en su desesperaciÃ³n ya habÃ­a limpiado sus pecados involuntarios. En su bÃºsqueda, unas seÃ±ales la encontraron. Entre la basura arrastrada por el viento, bajo un recipiente semiabierto. Un destello metÃ¡lico titilÃ³. Se agachÃ³, fingiendo revisar una caja rota. Un collar, de cuero desgastado con una pequeÃ±a placa: Lian. Su amado hermano. Y algo mÃ¡s: manchas oscuras, frescas, que no eran Ã³xido ni barro. Ese olor tan familiar, era sangre. La misma que impregnaba el sobre entregado a GakÃ³.
+Su corazÃ³n callÃ³ por unos segundos. No estaba siendo protegido. Estaba aquÃ­. O lo habÃ­a estado. Herido. Tal vez torturado. Tal vezâ€¦ ya no. La promesa de protecciÃ³n era humo. El Ãºnico grillete que la ataba a esta pesadilla se rompiÃ³. Solo quedaba rabia frÃ­a y una oportunidad.`
+    },
+    {
+      title: "CapÃ­tulo 5",
+      text: `Madame VÃ©ga, hipnotizada en el collar se asustÃ³ al escuchar pasos detrÃ¡s suya;
+El chofer rugiÃ³, mientras se aproximaba rÃ¡pidamente hacia ella.  â€”Â¿QuÃ© haces? â€”
+Sus pasos retumbaban con un eco sobrenatural e inquietante. La agarrÃ³ del brazo levantÃ¡ndola como una pluma. 
+â€”AquÃ­ estÃ¡.. â€” dijo tragando saliva. â€”El.. el paquete â€” balbuceÃ³ ella.
+El chofer felino miro en su mano un paquete hÃºmedo envuelto en esa cinta gris que solo se usa para empaquetar cosas turbias, y con sus garras como cuchillas, tomÃ³ el bulto de sus manos. â€”Si sirves para algo despuÃ©s de todo â€” sonriÃ³ maliciosamente, burlÃ¡ndose de su utilidad. Y la dejo caer. Madame VÃ©ga cayÃ³ de rodillas, jadeando, pero sin soltar una mirada orgullosa. SabÃ­a que el collar no estaba ahÃ­ por casualidad.
+Ella, sabia que su hermano habÃ­a dejado ese collar con intenciones de que lo encuentre. Pues Ã©l era un muy inteligente cientÃ­fico, graduado con honores de la prestigiosa academia â€œCiencias puras de las Cinco Garrasâ€. La esperanza inundÃ³ los ojos de Madame Vega, que no tardÃ³ en secar con un paÃ±uelo lleno de maquillaje.
+
+
+El ascensor que ya necesitaba un aumento por tanto esfuerzo se detuvo chillando en el piso nueve. GakÃ³ caminÃ³ por el pasillo alfombrado con olor a humedad. La luz parpadeaba y los baldes que aguantaban las goteras ya estaban llenos. Su puerta no tenÃ­a nÃºmero, pero si una cerradura antigua. GirÃ³ la llave, empujÃ³ con el hombro y levantÃ³ con todo su cuerpo la puerta. Como siempre.
+Adentro, lo esperaba el mismo desorden de todos los dÃ­as: papeles apilados, tazas con restos de cafÃ© seco, un sofÃ¡ deshilachado y una radio â€œrotaâ€ entre otras cosas. EncendiÃ³ un cigarro porque sÃ­. El humo era lo Ãºnico que se deshacÃ­a de sus pensamientos. Era lo mas parecido a una pausa que Ã©l podÃ­a ofrecerse. Se acercÃ³ al sofÃ¡ y abriÃ³ la carta de la triste mujer del callejÃ³n. GakÃ³ era perspicaz y no tardÃ³ en darse cuenta de que ciertas letras de la carta tenÃ­an diferente consistencia a las demÃ¡s. Como si estuviesen escritas apretando la pluma en la hoja. TambiÃ©n tenÃ­an otro tipo de trazo y eso despertÃ³ una serie de palabras que se formaban cuando las encadenaba.
+â€œ D ejÃ© de ver l o que n o debÃ­a.
+	 D ejÃ© de d e cir l o que no sab Ã­a .â€
+â€”Don DelÃ­a â€” murmurÃ³, exhalando una nube espesa que se mezclÃ³ con el humo viejo atrapado en la sala.
+GakÃ³ se reclino en el sofÃ¡, mirando el techo con pintura que una vez fue blanca, analizando dÃ³nde habÃ­a escuchado ese nombre antes. Y de pronto lo recordÃ³. Sin dejar el cigarro dio un salto vago para alcanzar una pila de papeles y libros en una repisa de con polvo, como si nunca hubiese sido limpiada. 
+â€”Â¿DÃ³nde... dÃ³nde estÃ¡s? â€“ repetÃ­a. â€”BAM â€” exclamÃ³.
+Un panfleto arrugado, pero en buenas condiciones por su buen material de impresiÃ³n. Don DelÃ­a, una librerÃ­a en las afueras del centro de Ciudad Sardina. Donde la luz es tenue, amarillenta. Las estanterÃ­as apretadas. Olor a incienso que nunca se ve, pero siempre estÃ¡. Algunas estanterÃ­as no parecen tener fondo. Y dicen que otras giran si sabes quÃ© libro tocar. El seÃ±or DelÃ­a... un gato anciano pequeÃ±o, con anteojos y una memoria demasiado precisa. Y su esposa, una gata muda y ciega, pero si preguntas, te guÃ­a hasta los libros que no existen y las preguntas escapan.
+La noche se habÃ­a convertido en dÃ­a, como quien esperarÃ­a, pero la lluvia no se rendÃ­a. GakÃ³ desayuno un whisky sin hielo, asÃ­, pelado y fuerte en un vaso. Se puso su misma camisa de siempre, su tapado y saliÃ³ sin objetivo claro hacia la librerÃ­a.
+Al llegar, notÃ³ una vidriera tan empaÃ±ada que apenas podÃ­a distinguir el interior. TirÃ³ el cigarro al suelo y lo pisÃ³ con desgano por dos segundos. Al entrar el suelo crujiÃ³, â€œÂ¿HabrÃ¡ un subsuelo? â€“ pensÃ³. NingÃºn libro tenia precio y, a todo esto, tampoco habÃ­a un horario en la entradaâ€¦ ni siquiera un cartel de abierto o cerrado, como si esa librerÃ­a nunca descansase. Entre los pasillos nota una figura familiar. Zapatos conocidos y el mismo pelo revuelto y ondulado, pero cuidadosamenteâ€¦ cuidado, y un extraÃ±o moretÃ³n en su rodilla. Que el jurÃ³ no haberlo visto la noche anterior. La misma gata. Pero no del todo.
+GakÃ³ se parÃ³ al lado de la felina y agarrÃ³ con firmeza un libro aleatorio de una repisa torcida.
+â€”Â¿Le gustan las historias de misterio y casos policiales, seÃ±or Barello? â€”preguntÃ³ ella con voz suave, casi juguetona, al ver el tÃ­tulo en la cubierta. Ã‰l la mirÃ³ de reojo, sorprendido. No solo por la pregunta, sino por el cambio en su tono. Ya no era la misma gata nerviosa y destruida de la noche anterior. GakÃ³ respondiÃ³;
+â€”Mi madre, solÃ­a contarme historias de policÃ­as, enigmas sin resolver en las noches de lluvia, amaba esa incertidumbreâ€¦ jugÃ¡bamos a resolver los casos antes de que lo hiciera el libro. â€” dejÃ³ una pequeÃ±a sonrisa al final.
+â€”Aunque nunca hablaba de los asesinatos â€”aÃ±adiÃ³, ya con la mirada endurecida.
+â€”Ni de la muerte. Ni de la torturaâ€” dijo crudamente y sin titubear.
+ La felina apenas girÃ³ los ojos hacia Ã©l sin mover su rostro. 
+â€”La realidad no es un libro, la vida real, deja manchas que nadie quiere limpiar. 
+GakÃ³ cerrÃ³ el libro con un chasquido.
+â€” Â¿QuiÃ©n es usted, realmente? algo me dice que el mensaje oculto en la carta tiene otro trasfondo y que usted no estÃ¡ trabajando sola.
+Ella suspirÃ³.
+â€”Es muy inteligente, Barello. No pensÃ© que descubrirÃ­a tan rÃ¡pido mi mensaje entre lÃ­neasâ€” dijo mientras acomodaba su pelo en sus orejas. â€”Y sÃ­, mi plan nunca fue ayudarles en su estÃºpido juegoâ€” mirÃ³ a Barello a los ojos.
+â€”Â¿Ayudarles? Â¿A quiÃ©nes? â€” dijo Barello mientras se le iluminaban los ojos por la informaciÃ³n que tanto deseaba escuchar. Cambiando de Ã¡mbar a naranja directo.
+â€”Mi nombreâ€¦ es Madame Vega. Encantada de conocerle.`
+    },
+    {
+      title: "CapÃ­tulo 6",
+      text: `GakÃ³ mantuvo su cigarro suspendido a medio camino hacia los labios, los ojos Ã¡mbar clavados en la felina que ahora reclamaba el nombre.
+â€”Â¿VÃ©ga? â€”repitiÃ³â€”. Anoche temblaba como un gatito mojado. Hoy habla como quien ya tiene un pie en la tumba. 
+Madame VÃ©ga no se inmutÃ³. El olor a papel viejo, cuero e incienso la envolvieron bajo el sentimiento de la amargura. AcomodÃ³ un mechÃ³n de su pelo detrÃ¡s de su oreja puntiaguda. 
+â€”La tumba es un lujo que Sardina no concede fÃ¡cilmente, Barelloâ€”espetÃ³, dejando atrÃ¡s el rastro de vulnerabilidad del callejÃ³nâ€”. Es mÃ¡s bienâ€¦ una lÃ­nea de producciÃ³n. Y usted lo sabe. Sabe lo que la Ã©lite hace aquÃ­. Lo que NÃ©ctar, en especÃ­fico, le hizo a su madre. 
+GakÃ³ sintiÃ³ un viejo dolor, afilado como un cuchillo el cual se insertaba bajo sus costillas. No le quedÃ³ mÃ¡s que tragarse el humo de su cigarro por primera vez. 
+â€”NÃ©ctarâ€¦ hasta el nombre es una burla â€”gruÃ±Ã³, tensando la cicatriz en su caraâ€”. Mi madre sabÃ­a del engaÃ±o, de la utopÃ­a transgÃ©nica para erradicar el hambre que en realidad era una purga controlada. Y se la llevaron entre las patas. 
+GakÃ³ ConocÃ­a demasiado bien la fÃ¡bula pÃºblica que NÃ©ctar vendÃ­a: una utopÃ­a transgÃ©nica prometiendo erradicar el hambre y la enfermedad... para la Ã©lite. Un sueÃ±o perverso financiado con la salud de Sardina, diseÃ±ado para fortalecer a los poderosos ante futuras guerras, todo bajo el velo de un beneficio mutuo que solo existÃ­a en los panfletos. El nÃºcleo de esa mentira era el bio-organismo sintÃ©tico, codificado como "Simplasto-9". Devoraba contaminantes industriales, y los convertÃ­a en proteÃ­nas nutritivas. Ante los comunes, la promesa era doble: limpiar la ciudad y generar alimento ilimitado. Pero la realidad era otra: el "NÃ©ctar Vital", esa proteÃ­na milagrosa, fluÃ­a solo por la red de las Ã©lites. Mientras, el Simplasto-9, al contacto con los metales pesados que infestaban Sardina, mutaba. Se volvÃ­a sigiloso, parasitario. Se filtraba en cultivos, en el agua... y finalmente, en los cuerpos de los habitantes. No mataba rÃ¡pido, no. Degeneraba. Robaba aÃ±os, salud, esperanza, convirtiendo a la poblaciÃ³n en combustible involuntario del verdadero plan: un biorreactor a escala ciudad.
+â€”Convierte mierda en manjar â€”resumiÃ³ con crudo cinismoâ€”. Demasiado bonito para ser verdad. 
+â€”Demasiado perverso para ser comprendido â€”aÃ±adiÃ³ VÃ©ga, bajando la voz a un susurro cargado de repugnanciaâ€” Lian y yo estamos en el mismo cuento que vendieron a su madre â€”dijo la felina en un desaire.
+â€”Â¿Lian, el cientÃ­fico estrella? pfffâ€” GakÃ³ se burlaba mientras escupÃ­a las palabrasâ€” robÃ³ muestras del organismo. Lo vigilÃ© semanas pensando que era otro traficante de muerte. Como los que mataron a mi madre. 
+â€”Mi hermano lo hizo para salvar el pellejo de todos, en cuanto los descubriÃ³, actuÃ³ â€”soltÃ³ la felina en un hilo tirante, pero sin temblor. La ira poco a poco subÃ­a hasta su Ãºltima garra.
+â€”Su hermano escondÃ­a frascos con muestras en los Muelles Viejos. Sospechosamente â€”Una pausa cargada de tensiÃ³nâ€” Â¿DÃ³nde estÃ¡ ahora? Â¿EscondiÃ©ndose como rata? 
+La furia en los ojos de VÃ©ga brillÃ³ como metales al sol. AvanzÃ³ hacia GakÃ³, ignorando el dolor de su rodilla, hasta quedar a un palmo de su rostro. 
+â€”Â¿Rata? â€”su voz era un silbido venenosoâ€”. Mi hermano arriesgÃ³ todo mientras usted jugaba al detective cansado. Â¿Sabe lo que es preparar un antÃ­doto con las uÃ±as, Barello? Usar esta librerÃ­a como laboratorio, esconder muestras en lomos falsos de libros... â€”Su garra seÃ±alÃ³ ejemplares con el lomo ligeramente torcidoâ€”. Todo mientras NÃ©ctar le respiraba en la nuca.
+GakÃ³ no retrocediÃ³. El humo de su cigarro se enredÃ³ entre ellos como una serpiente gris. 
+â€”Â¿Y usted quÃ© hizo al respecto, detective? â€”el tÃ­tulo sonÃ³ a latigazoâ€”. Archivar papeles. Beber whisky barato. Apagar cigarros en promesas rotas. â€”SeÃ±alÃ³ el caos de documentos alrededorâ€”. Lian intentÃ³ advertirle hace un aÃ±o. DejÃ³ su carta pudrirse con el resto de las cosas que ya no le importaban. â€”Un escalofrÃ­o de rabia recorriÃ³ su cuerpoâ€”. El Ãºnico pecado de Lian fue preocuparse por el bien de todos en Ciudad Sardina... y por salvarme a mÃ­. 
+Con un gesto brusco, arremangÃ³ su brazo izquierdo. Bajo la piel, una telaraÃ±a de venas negras palpitaba como raÃ­ces de hierba envenenada. Las lÃ­neas convergÃ­an hacia el corazÃ³n, formando un mapa de su condena.
+GakÃ³ contuvo la respiraciÃ³n. Sus pupilas recorrieron las venas oscuras, la piel translÃºcida donde el negro se filtraba hacia el pecho.
+â€” Cuando el organismo alcanza el corazÃ³nâ€¦ â€”su voz se quebrÃ³ apenasâ€” â€¦lo paraliza. Limpio. Silencioso. Como un reloj que deja de latir. â€”Sus dedos tocaron el centro de su pechoâ€”. Tres aÃ±os. Eso dan desde la inyecciÃ³n hasta el final. GakÃ³ apagÃ³ el cigarro entre sus dedos. El gesto fue lento. 
+â€”Â¿Y en quÃ© aÃ±o estÃ¡ usted exactamente...? 
+Un estruendo repentino vino del techo. Una gota gruesa, viscosa y brillante como aceite de motor, cayÃ³ sobre un libro abierto en la mesa. Donde impactÃ³, el papel comenzÃ³ a humear, revelando lÃ­neas ocultas que brillaban con fosforescencia verde. 
+La pared de libros a su derecha estallÃ³ en una lluvia de astillas y papel. Dos figuras con trajes de materiales sintÃ©ticos avanzaban, mÃ¡scaras de filtro empaÃ±adas ocultando sus rostros. Las armas que empuÃ±aban zumbaban con carga elÃ©ctrica. 
+GakÃ³ rasgÃ³ la pÃ¡gina corroÃ­da. Bajo la superficie, un mapa de alcantarillas se revelÃ³. No dudÃ³ en tomarlo.
+â€”Â¡La salida trasera! â€”gritÃ³ VÃ©ga, pero Don DelÃ­a ya accionaba un candelabro de hierro. Con un gemido de piedra milenaria, una secciÃ³n del piso cediÃ³ revelando escaleras que olÃ­an a Ã³xido y agua estancada.
+GakÃ³ empujÃ³ a VÃ©ga hacia el hueco. Antes de descender, sus manos se encontraron en la oscuridad.`
+    },
+    {
+      title: "CapÃ­tulo 7",
+      text: `La humedad del subsuelo alcantarillado se aferrÃ³ a sus pelajes como una garrapata. Las luces de la librerÃ­a murieron al cerrarse el acceso sobre sus cabezas. Solo el mapa, que GakÃ³ aÃºn apretaba en una mano.
+VÃ©ga resbalÃ³ en el primer escalÃ³n de metal, pero GakÃ³ la sostuvo sin pensarlo. 
+â€”Â¿EstÃ¡s bien? Â¿Te duele? â€”murmurÃ³ Ã©l, mirando su rodilla.
+â€”No tanto como saber que me queda un aÃ±o y medio â€”respondiÃ³, sin mirarlo, bajando la escalera con furia contenida.
+GakÃ³ apretÃ³ sus dientes, no habÃ­a tiempo para ponerse a reconfortarla, el tiempo era oro. Con determinaciÃ³n examinÃ³ el mapa.
+â€”Estos ductosâ€¦ nos sacan de la ciudad, Â¿no? â€”susurrÃ³.
+â€”Hay salidas, sÃ­. En toda la ciudadâ€” replicÃ³ VÃ©ga sin detenerse. â€”PodrÃ­amos salir a las afueras de la ciudadâ€”.
+â€”Eso es lo que esperan que hagamos, si eliges lo obvio, es tu tumba â€” dijo GakÃ³ con una mirada de experiencia y aÃ±os de entrenamiento.
+GakÃ³ se detuvo. La mirÃ³ de reojo. â€”Podemos ir a mi departamentoâ€” susurrÃ³ Ã©l de pronto, con una risaâ€” nadie me ve entrar a ese edificio. Nadie. Es como si no existiera. El que es bueno encontrandoâ€¦ tambiÃ©n lo es escondiendo, VÃ©gaâ€”.
+Ella no contestÃ³. Solo caminÃ³ mÃ¡s deprisa. A sus espaldas, el ambiente de los ductos se agitaba como un animal hambriento.
+Fue entonces cuando lo escucharon: pasos secos sobre el agua, disciplinados. â€”Noâ€¦ â€”susurrÃ³ desesperadamente VÃ©gaâ€”. No puede serâ€¦ estÃ¡n aquÃ­ abajo.
+GakÃ³ alzÃ³ la mirada y notÃ³ como el agua estancada del subsuelo se empezÃ³ a mover.
+â€”Nos estÃ¡n cazando.
+Dos sombras felinas surgieron entre el vapor. Sus ojos brillaban como agujas afiladas. Trajes oscuros sintÃ©ticos, con lÃ­neas amarillas y garras expuestas. De los de NÃ©ctar. Agentes de Ã©lite.
+Entre risas siniestras, parecÃ­an pronunciar un â€œdetÃ©nganseâ€ retorcido, como si la palabra misma estuviera podrida. Se colaban por la piel, reptaban por la mÃ©dula y apretaban la sangre de GakÃ³ y VÃ©ga hasta volverla frÃ­a.
+GakÃ³ girÃ³ a la izquierda y tirÃ³ de VÃ©ga. â€”Â¡Corre!
+No llegaron lejos. Un tercer felino emergiÃ³ por una compuerta lateral y lo embistiÃ³. GakÃ³ cayÃ³ de espaldas, soltando el mapa.
+El agente levantÃ³ la garra. Iba a hundÃ­rsela en el cuello. GakÃ³ forcejeÃ³ intentando salvar su vida. Cuando de pronto, un disparo resonÃ³. No un arma. Un proyectil elÃ©ctrico. La descarga impacto en el pecho del felino y lo tirÃ³ al piso convulsionando.
+GakÃ³ mirÃ³ hacia el tÃºnel: VÃ©ga, con un dispositivo de pulso elÃ©ctrico en la mano.
+â€”No soy buena para pelear â€”exhalÃ³â€”. Pero sÃ­ en robar cosas peligrosas.
+GakÃ³ se levantÃ³ con un gruÃ±ido. MirÃ³ el cuerpo del agente todavÃ­a chispeando con humo saliendo de su traje. Entre la oscuridad se pudo verâ€¦ el logotipo de â€œLucky Fishâ€, al igual que los cigarrillos. Todo estaba entrelazado.
+â€”Me debes una. AnÃ³tala â€”dijo VÃ©ga con frialdad, aunque algo temblaba en su voz.
+No esperaron a que llegaran mÃ¡s. Siguieron corriendo, con los pasos de los otros agentes detrÃ¡s. Alcanzaron la escotilla apenas a tiempo. La cerraron con fuerza.
+Y ahÃ­ sÃ­: silencio. Solo su respiraciÃ³n. Y el mapa arrugado, todavÃ­a en la mano de GakÃ³.
+
+Subieron, entre caÃ±os calientes y paredes rugosas. Salieron por una escotilla dentro del depÃ³sito vacÃ­o de una pescaderÃ­a cerrada hacÃ­a aÃ±os. Luego de unos minutos a pie en el barrio â€œBajo Merluzaâ€, donde los edificios parecÃ­an haber sido olvidados por la luz hace dÃ©cadas, GakÃ³ abriÃ³ una puerta trasera sin nombre en un callejÃ³n. Pasaron por una escalera sin baranda, subieron hasta un piso 8 y usaron un ascensor viejo para subir un solo piso, hasta el piso 9 que parecÃ­a estar oculto, u olvidado. 
+Al entrar a su departamento, el lugar olÃ­a a humo viejo. En duras penumbras como si no fuese de dÃ­a afuera.
+â€”Bienvenida â€”dijo, prendiendo la luz.
+VÃ©ga dejÃ³ caer su abrigo sobre el respaldo de una silla y se dejÃ³ caer en el sofÃ¡, hundiÃ©ndose en un silencio que parecÃ­a que iba a durar horas. GakÃ³ sirviÃ³ dos vasos de un licor barato que olÃ­a a roble y chocolate.
+â€”Brinda, aunque sea por estar vivos cinco minutos mÃ¡s â€”dijo, intentando forzar una sonrisa.
+Ella aceptÃ³ el vaso, chocÃ³ apenas el borde con el suyo. El licor les bajÃ³ como un hilo de fuego que parecÃ­a calmar, aunque fuera un engaÃ±o momentÃ¡neo. La radio vieja empezÃ³ a sonar de la nada y el chisporroteo de la primera calada de GakÃ³ llenaron la habitaciÃ³n.
+â€”Â¿Sabes? â€”dijo Ã©lâ€”. Casi me arrancan la cola allÃ¡ abajoâ€”
+VÃ©ga no contestÃ³, pero en su mirada habÃ­a un reconocimiento mudo, como si ese instante en los ductos hubiera sellado un pacto tÃ¡cito.
+â€”BÃ©ni y su estÃºpido chofer, RÃ³doâ€¦ â€”escupiÃ³ de pronto VÃ©ga, como si no pudiera guardÃ¡rselo mÃ¡sâ€”. Son solo marionetas del NÃ©ctar. Pero se cansaron. QuerÃ­an que tÃº llegaras a la verdad, Barello. Que tÃº destaparas todo con pruebas. Que los felinos se volvieran contra la Ã©lite. Un plan suicidaâ€”.
+â€”Miles de felinos contra la cÃºspide â€”dijo GakÃ³, amargoâ€”. No tienen chance. Y lo saben.
+â€”Lo saben â€”asintiÃ³ ellaâ€”. Pero lo que quieren es el monopolio, Â¿entiendes? BÃ©ni quiere ser el nuevo dueÃ±o del NÃ©ctar. TomarÃ­an muestras. Para llevarlas a otras ciudades. A esparcir esta mentira, este venenoâ€”.
+GakÃ³ cerrÃ³ los ojos por un segundo, calando su cigarro que le permitÃ­a pensar claramente.
+â€”Tienen a mi hermano â€”confesÃ³ VÃ©gaâ€”. Y eso significa que pueden obligarnos a lo que sea. Yo harÃ­a lo que fuera por Ã©l. Y Ã©lâ€¦ lo harÃ­a por mÃ­.
+â€”Por eso dejaste el mensaje oculto. â€”GakÃ³ bajÃ³ el tono y se inclinÃ³ hacia ella en el sillÃ³nâ€” Â¿QuÃ© necesitas de mÃ­, VÃ©ga? Solo soy un detective.
+â€”Eres mÃ¡s que eso, Barello. EscuchÃ© historias sobre ti. No estÃ¡s tan oculto como pensabas. Â¿Tu fama te precede sabes? â€” Vega lo miro casi con una mirada de admiraciÃ³n.
+â€”Hay que eliminar a la cÃºspide de la Ã©lite. Al que dirige NÃ©ctar realmenteâ€” ProsiguiÃ³.
+â€”Â¿El que dirige? â€”GakÃ³ negÃ³ con la cabezaâ€”. Es un mito, estÃ¡s soÃ±ando despierta, VÃ©gaâ€”
+â€”No sueÃ±o. Yo lo vi. â€”La voz de Vega se tornÃ³ frÃ­a a pesar del licorâ€”. Un felino enorme, negro como la noche. El brillo de su pelaje lunar, antinatural. Sus ojosâ€¦ de depredador. Asesino. No habla. No negocia. Solo ordena. Una pantera negra.
+GakÃ³ tragÃ³ saliva. â€”Â¿EstÃ¡s segura de lo que viste? â€” dijo ya acelerado â€” podrÃ­a haber sido cualquier otra cosa, un gato muy gran.. â€”
+â€”No es un mito Barello â€”dijo ella con firmeza interrumpiÃ©ndoloâ€”. Lo vi salir del nÃºcleo. Caminaba entre cadÃ¡veres. Nadie se atrevÃ­a a mirarlo a los ojos.
+El clima no parecÃ­a cesar, y un trueno retumbÃ³ en el cielo, haciendo temblar las paredes de la habitaciÃ³n. La radio dio un salto y cambiÃ³ de tonada; una trompeta suave y un contrabajo marcado se mezclaban con una voz aterciopelada que acariciaba cada sÃ­laba, y el compÃ¡s guiado por una sutil percusiÃ³n de baterÃ­a.
+"BÃ¡ilame lento, que la noche es cruelâ€¦
+no preguntes nada, yo no soy de Ã©lâ€¦"
+â€”Vayaâ€¦ â€”murmurÃ³ Ã©l, ladeando la cabezaâ€”. No sabÃ­a que las radios de Ciudad Sardina pasaban grabaciones clandestinas.
+â€”No es clandestina â€”respondiÃ³ ella, sin mirarloâ€”. Esâ€¦ viejaâ€”
+â€”Madame VÃ©ga, mi madre en sus Ãºltimos aÃ±os de vida la escuchaba, lo notÃ© en su voz y confirmÃ© cuando te introdujiste. â€” seÃ±alÃ³ con una media sonrisa.
+VÃ©ga dejÃ³ escapar un suspiro breve, como quien se rinde.
+â€”Fui muchas cosas antes de lo que soy ahora â€”admitiÃ³â€”. Cantanteâ€¦ actrizâ€¦ cara bonita en carteles que ya nadie recuerda.
+â€”Â¿Y ahora? â€”preguntÃ³ Ã©l.
+â€”Ahoraâ€¦ sobre todo, sobreviviente.
+â€”Â¿EstÃ¡s cansada? â€”
+Ella se levantÃ³ lentamente del sillÃ³n, como si la mÃºsica tirara de sus hombros. Se moviÃ³ suave, siguiendo el vaivÃ©n de la canciÃ³n.
+â€”SÃ­â€¦ â€”susurrÃ³â€”. Pero por un momentoâ€¦ puedo recordar lo que era ser felizâ€”
+GirÃ³ sobre sÃ­ misma, cerrando los ojos, y sus labios dibujaron una sonrisa ausente, casi dolorosa. Ã‰l la observÃ³ mientras sus sombras se rozaban en las paredes, y en ese instante, por un momento, el mundo fuera de esa habitaciÃ³n dejÃ³ de importar.`
+    },
+    {
+      title: "CapÃ­tulo 8",
+      text: `El licor barato ardÃ­a en sus gargantas, pero era un fuego pequeÃ±o frente al frÃ­o que llevaban dentro. TerminÃ³ por esfumar la adrenalina, dejando un vacÃ­o tembloroso en el cuerpo de VÃ©ga quien exhausta, se dejÃ³ caer en el borde de la cama estrecha. Su cabello, una cascada de ondas rebeldes, se esparciÃ³ como sombras vivas sobre la almohada. GakÃ³ observÃ³ su silueta encorvada, frÃ¡gil bajo la luz mortecina de la lÃ¡mpara de aceite. No dijo nada. ApagÃ³ la luz. La oscuridad los envolviÃ³, densa y protectora. 
+Se acostÃ³ a su lado, no tocÃ¡ndola al principio. El colchÃ³n crujiÃ³, protestando bajo su peso. Un escalofrÃ­o recorriÃ³ a VÃ©ga. GakÃ³, movido por un instinto mÃ¡s profundo que la razÃ³n, cerrÃ³ la distancia. Su brazo encontrÃ³ la curva de su cintura, atrayÃ©ndola hacia el puerto seguro de su pecho. Ella se fundiÃ³ en el contacto, buscando el calor sÃ³lido de Ã©l. Encajaron. Sus respiraciones, primero nÃ³madas, se acompasaron en un ritmo compartido. Bum-bum. Bum-bum. El latir de sus corazones se convirtiÃ³ en un Ãºnico tambor en la oscuridad, un recordatorio tÃ¡cito de la vida que palpitaba. La coronilla de VÃ©ga encontrÃ³ su sitio bajo la barbilla de GakÃ³, y aquellas ondas inquietas, suaves como seda oscura, se acurrucaron contra su piel, desprendiendo su aroma a bosque hÃºmedo y dulzura tostada.
+El sueÃ±o tomÃ³ a GakÃ³. Y lo traicionÃ³.
+Su mente despertÃ³ en la oscuridad, lÃºcida y aterrada, pero su cuerpo era una estatua de yeso. NingÃºn mÃºsculo respondÃ­a. Ni un dedo, ni un pÃ¡rpado. Solo yacer, prisionero en su propio lecho, mientras un frÃ­o absoluto, como el mÃ¡rmol de una lÃ¡pida, ascendÃ­a desde sus pies. Sus sentidos atormentados captaban todo: el peso de VÃ©ga contra Ã©l, el leve cosquilleo de sus rizos en su cuello, el ritmo constante de su respiraciÃ³n... y un olor fantasmal a grasa industrial mezclada con papel viejo y moho.
+En el telÃ³n negro de su inmovilidad, surgiÃ³ su madre.
+No flotaba ni era transparente. Estaba simplemente ahÃ­, estÃ¡tica al pie de la cama, tan sÃ³lida y real como el terror que lo paralizaba. Pero era una versiÃ³n ajena, distorsionada. Su vestido sencillo, que Ã©l recordaba de color lavanda, estaba manchado de barro oscuro y vetas de un lÃ­quido rosa brillante que parecÃ­a rezumar de sus costuras. En sus manos, sostenÃ­a una Ãºnica flor.
+La flor era una aberraciÃ³n. Tallo y hojas de metal retorcido y oxidado, como alambre viejo abandonado a la intemperie. Pero la corola... la corola era de un cristal grueso y translÃºcido, con una luz fosforescente, idÃ©ntica al veneno de NÃ©ctar. Un lÃ­quido espeso del mismo rosa maligno transpiraba lentamente de los pÃ©talos cristalinos, cayendo sobre el suelo de madera donde ella estaba, pudriÃ©ndolo con sus huellas. Sus ojos, siempre llenos de historias y calor, estaban vacÃ­os. No mirÃ³ a GakÃ³ con amor. Lo mirÃ³ con una penetrante y frÃ­a clarividencia.
+Su madre inclinÃ³ la flor monstruosa sobre un paquete medio vacÃ­o de cigarros â€œLucky Fishâ€. La luz rosa fosforescente de la corola pulsÃ³ con intensidad enfermiza, baÃ±ando la cajetilla en un resplandor sobrenatural. En ese instante, una lÃ¡grima gruesa, viscosa y del mismo rosa brotÃ³ de su ojo vacÃ­o. CayÃ³ con lentitud deliberada, e impactÃ³ directamente sobre el papel del paquete, justo encima del logo impreso del pez. No hubo siseo, ni transformaciÃ³n. El papel simplemente sangrÃ³. Donde el nÃ©ctar venenoso tocÃ³ el logo del pez saltarÃ­n, tres cifras grotescas brotaron de la superficie como si estuvieran escritas con tinta viva y espesa: 636.
+La imagen se quebrÃ³. GakÃ³ se incorporÃ³ bruscamente, un jadeo Ã¡spero atrapado en su garganta, mÃ¡s un sonido de asfixia que de grito. Su cuerpo estaba rÃ­gido, sudando frÃ­o, los puÃ±os clavados en el colchÃ³n. La imagen del "636" industrial flotaba ante sus ojos, nÃ­tida y opresiva.
+Entonces VÃ©ga se moviÃ³, sin la frialdad tÃ¡ctica de antes. Se volviÃ³ hacia Ã©l en la cama estrecha y, sin una palabra, rodeÃ³ sus hombros con ambos brazos. GakÃ³ se dejÃ³ hundir en ese abrazo inesperado, en la calidez real y temblorosa que contrarrestaba el frÃ­o espectral de la visiÃ³n. Sus propias manos, torpes al principio, encontraron su espalda, aferrÃ¡ndose a ella como a un salvavidas en aguas negras. Fueron segundos que se extendieron como horas, un minuto donde las armaduras se fracturaron dejando al descubierto el miedo crudo y la necesidad mutua. Poco a poco, el pÃ¡nico cediÃ³. La respiraciÃ³n de GakÃ³ se hizo mÃ¡s profunda, mÃ¡s regular. El silencio ahora era distinto: cargado, Ã­ntimo.
+Cuando GakÃ³ hablÃ³, su voz era un susurro ronco, raspado por la emociÃ³n, pero ya sin rastro del pÃ¡nico.
+â€”Vi lo que siempre estÃ¡ ahÃ­. Ese maldito pez saltarÃ­n de Lucky Fish. Como si todo empezara y terminara ahÃ­. 
+VÃ©ga se separÃ³ lo justo para mirarle a la cara. Sus ojos, hÃºmedos y enormes en la penumbra apretujaron los suyos.
+â€”El pez... â€” susurrÃ³ ella â€” Entonces es ahÃ­ donde temenos que ir. Pero desde el principio. A la primera fÃ¡brica, a las afueras de la ciudad. AhÃ­ estÃ¡ la semilla enterrada.`
+    },
+    {
+      title: "CapÃ­tulo 9",
+      text: `Luego de un rempÃ¡lago, un baÃ±Ã³ de luz inundÃ³ la habitaciÃ³n oscura, GakÃ³ y VÃ©ga se apartaron con un gesto nervioso y cargado de sentimientos. El prÃ³ximo destino estaba decidido: la primera fÃ¡brica de Lucky Fish. Oficialmente habÃ­a sido clausurada por problemas elÃ©ctricos y mudada al centro de la ciudad; extraoficialmente, la verdad se volvÃ­a obvia al mirar el mapa completo: Las afueras de la ciudad se habÃ­an vuelto cada vez mÃ¡s marginales y letales, pobladas por ratas capaces de matarte por una monedaâ€¦ o un simple pedazo de queso.
+La fÃ¡brica abandonada estaba justo frente a lo que alguna vez fue una pastelerÃ­a. GakÃ³ se detuvo un instante, sintiendo un nudo en el estÃ³mago: Â¿nostalgia o un recuerdo falso inventado por la mente cansada? No estaba seguro.
+Entrar no fue difÃ­cil, poca seguridad realmente. Solo un barrote cubrÃ­a la entrada, y las ventanas rotas cubiertas con maderas que se movÃ­an con el viento. El edificio respiraba como un animal moribundo. Las paredes crujÃ­an, los techos lloraban, y entre las sombras veloces que corrÃ­an por las columnas de hierro, los chillidos agudos confirmaban lo obvio.
+â€”Â¿Â¡Ratas?! â€”exclamÃ³ VÃ©ga â€” Por favor, dime que no son ratasâ€”. 
+â€”Shhhâ€¦ â€”GakÃ³ le puso una mano en el hombroâ€” Baja la voz. Estas ratas tienen mejor oÃ­do que nosotros. La ciudad se pudre por dentro, y las ratas la devoran por fuera. Estamos en su territorioâ€”.
+A medida que avanzaban el corredor los guio hasta lo que parecÃ­a haber sido la oficina del director. Dentro, sobre el escritorio carcomido por la humedad, quedaban papeles de despido y cuentas vencidas. Nada mÃ¡s. Ninguna prisa, ningÃºn olvido. 
+â€”Realmente hicieron un buen trabajo en la mudanza, no dejaron nada atrÃ¡s â€” susurro VÃ©ga cÃ³micamente.
+â€”SÃ­â€¦ â€”GakÃ³ afirmÃ³ con la cabeza, sus ojos clavados en el fondo del despachoâ€” Esto no es abandono. Es preparaciÃ³nâ€”.
+Se acercÃ³ a la pared detrÃ¡s del escritorio. PasÃ³ la mano por la superficie: a diferencia del resto, esa pared estaba menos manchada, menos hÃºmeda. VÃ©ga lo observÃ³ con curiosidad mientras Ã©l golpeaba tres veces con los nudillos. POCK. POCK. POCK. El sonido resonÃ³ de manera diferente.
+â€”Hueco â€”murmurÃ³ con certeza, la mirada afiladaâ€” AquÃ­ hay algo. La pregunta es cÃ³mo se abreâ€”.
+â€”Â¿El quÃ©? â€”preguntÃ³ VÃ©ga, acercÃ¡ndose.
+La pared olÃ­a a Ã³xido viejo, pero habÃ­a un detalle que no encajaba: una mancha rectangular, mÃ¡s limpia y desgastada que el resto, como si alguien la hubiese tocado repetidamente.
+â€”No es una palanca convencional â€”murmurÃ³, mientras su uÃ±a raspaba algo metÃ¡lico apenas visible bajo la pintura.
+VÃ©ga lo mirÃ³, tratando de disimular el nerviosismo de los chillidos cada vez mÃ¡s fuertes.
+â€”Â¿QuÃ© buscas?
+â€”Un descuido. Siempre hay un descuidoâ€” dijo Ã©l como si tuviese una lupa en sus ojos.
+GakÃ³ presionÃ³ esa pequeÃ±a placa metÃ¡lica escondida bajo una capa de pintura resquebrajada. Apenas lo hizo, se escuchÃ³ un clic sordo, seguido de un temblor que recorriÃ³ el marco del escritorio. La madera podrida del escritorio se corriÃ³ hacia adelante, apenas unos centÃ­metros, revelando que en realidad estaba sujeto a metales oxidados.
+â€”El botÃ³n no abre la pared â€”dijo GakÃ³, forzando el escritorio con las manosâ€”. La pared se abre desde el escritorioâ€”.
+El mueble se desplazÃ³ con un crujido lento, revelando detrÃ¡s un panel metÃ¡lico con unos botones de nÃºmeros y un interruptor. La pintura quebrada y mojada mostraba un sÃ­mbolo: un pezâ€¦ la marca de Lucky Fish.
+â€”No tenemos mucho tiempo Barello, estÃ¡n cada vez mÃ¡s cerca â€” dijo VÃ©ga ya con los nervios quebrando su susurro â€” 
+GakÃ³ se inclinÃ³ hacia el panel. El metal frÃ­o estaba hÃºmedo por el rocÃ­o que se filtraba en la fÃ¡brica, pero sus manos no temblaban. Como si ya supiese el patrÃ³n de nÃºmeros. ColocÃ³ el dedo en el primer nÃºmero y presionÃ³.
+â€”Mi madre me contaba una historia antes de dormir Â¿sabes?â€¦ â€”susurrÃ³â€”. Mi favorita â€”sonriÃ³ â€” el detective 636â€”.
+El primer bip sonÃ³ seco y agudo presionando en el seis.
+â€”ResolvÃ­a todos los casos en seis dÃ­as, tres horas y seis minutos exactos. â€” exhalÃ³ un poco de aire resignando la ficciÃ³n en la historiaâ€” No importaba la dificultad, no importaba el peligro. El tiempo era su firma, su selloâ€”.
+El segundo bip sonÃ³ igual de seco, pero un poco mÃ¡s grave presionando en el tres.
+â€”Y siempre, siempreâ€¦ el caso se resolvÃ­a al sexto dÃ­a, a las seis treinta y seis en punto. Ã‰l decÃ­a que a esa hora el mundo entero se detenÃ­a un instanteâ€¦ y la respuesta aparecÃ­a frente a sus ojos Â¿increÃ­ble no? â€”.
+El tercer bip sobre el seis vibrÃ³ en el dispositivo como si la vieja mÃ¡quina reconociera la combinaciÃ³n secreta.
+â€”Pero habÃ­a algo que mi madre nunca me contÃ³ en esas historias â€”dijo GakÃ³, y su voz se torciÃ³â€” Que ese detective... tenÃ­a un caso que nunca pudo resolver. Una felina lo encadenÃ³ sin barrotes, lo hizo suyo con un gesto, con una mirada. Se enamorÃ³â€¦ y descubriÃ³ que el amor no se resuelve con pistas ni deducciones, que no hay lÃ³gica capaz de descifrarlo â€”. 
+Su dedo se posÃ³ sobre el interruptor. Lo bajÃ³, y la luz cambiÃ³ a un resplandor verde claro. 
+â€”Fue el Ãºnico misterio que lo quebrÃ³ por dentro, que lo desarmÃ³ hasta los huesos. Y asÃ­ lo condenÃ³â€¦ a un exilio eternoâ€”.
+Un zumbido subterrÃ¡neo recorriÃ³ las paredes, y un engranaje oculto comenzÃ³ a girar. La pared detrÃ¡s del escritorio espolvoreÃ³ de golpe, separÃ¡ndose lentamente en dos paneles que revelaban un pasadizo angosto, iluminado por luces de emergencia que parpadeaban como si aÃºn latiera un corazÃ³n oculto en la fÃ¡brica. El sonido retumbÃ³ por los corredores y, como respuesta, un coro de chillidos agudos se alzÃ³ desde las sombras. Ratas. Decenas, quizÃ¡ cientos, enfurecidas.
+â€”Â¡Vamos, Barello! â€”exclamÃ³ VÃ©ga, con ansiedad teÃ±ida de adrenalina en su voz. Sin pensarlo dos veces, se deslizÃ³ hacia el pasadizo apenas abierto, jalando del brazo de GakÃ³ para obligarlo a entrar.
+El pasadizo se cerrÃ³ con un golpe seco, dejando tras de sÃ­ un silencio sofocante, interrumpido solo por el eco lejano de las ratas araÃ±ando el metal. Avanzaron hasta llegar a una habitaciÃ³n cuadrada, pequeÃ±a y asfixiante. Mas polvo que aire. Escritorios corroÃ­dos, cajones entreabiertos y carpetas hinchadas por la humedad.
+GakÃ³ todavÃ­a confundido por la relaciÃ³n de 636 con Lucky Fish encendiÃ³ una lÃ¡mpara olvidada, cuya luz temblorosa revelÃ³ un puÃ±ado de fotografÃ­as apiladas. La primera una postal de la antigua Ciudad Sardina, resplandeciente como el sol por la maÃ±ana. La segunda una foto de la fÃ¡brica en su ceremonia de abertura. Se podÃ­a ver el pez de Lucky Fish en un cartel gigante justo en el frente de la fÃ¡brica. Hasta que una foto lo congelÃ³: su madre, radiante, con un vestido de gala, mÃ¡s hermosa que en sus recuerdos. Pero no estaba sola. A su lado, un hombre elegante, traje oscuro, copa en mano, ambos inmortalizados en lo que parecÃ­a una fiesta de alta clase. PasÃ³ otra foto, y otra. El mismo hombre volvÃ­a a aparecer, siempre junto a su madre, siempre demasiado cerca. Al girar una de las imÃ¡genes encontrÃ³ algo escrito en el reverso, con tinta aÃºn visible a pesar del paso de los aÃ±os:
+â€œNi yo, el que todo encuentra,
+Ni yo, el que a todos busca,
+PodrÃ­a encontrarte con siquiera buscarte,
+quizÃ¡s si por amorâ€¦ y con amor
+636â€
+El aire se le escapÃ³ de los pulmones. El apodo, el mito, la historia de infancia que tanto venerabaâ€¦ su madre no se la contaba como cuento, sino como recuerdo. 
+Las manos le temblaban cuando hojeÃ³ otra pila. Su madre en una especie de laboratorio con un traje sintÃ©tico amarillo con el logo de Lucky Fish, justo como el de las alcantarillas de Don DelÃ­a. En otra foto, ahÃ­ estaba de nuevo la fiesta, las luces reflejadas en copas de cristal, el lujo desbordadoâ€¦ y al fondo, un felino imponente. Corpulento, traje de gala, de pie tras su madre y 636. La expresiÃ³n en su rostro no era totalmente creÃ­ble, con una mirada perturbadora, fija, como un depredador aguardando en silencio su momento para saltar. Una pantera negra.
+â€”Â¿Barello? â€” preguntÃ³ VÃ©ga mirÃ¡ndolo desde la penumbra, con preocupaciÃ³n.
+El aire cambiÃ³ de pronto. Un sonido grave aturdidor de explosiÃ³n se escuchÃ³ en el fondo del pasadizo. El polvo cayÃ³ del techo en hilachas, y en cuestiÃ³n de segundos, la penumbra se llenÃ³ de movimiento. Figuras emergieron, sucias, desgarradoras, deformadas por el hambre y la mugre, vestidas con trapos sucios manchados con marcas flÃºor, como de un lÃ­quido quÃ­mico. Las sombras se partieron en decenas de siluetas roedoras, acercÃ¡ndose con pisadas cortas y rÃ¡pidas.
+â€”â€¦ Â¿QuÃ© tenemos p-por aquÃ­? â€” Del centro del grupo avanzÃ³ una mÃ¡s. Una rata joven, con la piel colgando en pliegues y los ojos brillando con un verde fulgor diabÃ³lico. Sus manos temblaban sin control, y la cabeza se le inclinaba a sacudidas bruscas, como un tic incesante. La sonrisa torcida, casi cortada en su hocico, se extendiÃ³ con un escalofrÃ­o... â€” Â¿Vi-vi-visitas?... Â¿Intrusos-s? â€”`
+    },
+    {
+      title: "CapÃ­tulo 10",
+      text: `El cÃ­rculo de siluetas roedoras se cerrÃ³. Decenas de ratas aparecieron, algunas del tamaÃ±o de un gato pequeÃ±o, otras tan grandes y deformes que arrastraban hinchazones verdes y palpitantes bajo el pelaje enmaraÃ±ado. El simplasto-9 puro y corrupto, se dejaba ver a travÃ©s de sus miradas casi ciegas por el brillo, posando sobre sus cuencas como destellos, con la cabeza erguida, olfateando el aire con narices que no dejaban de temblar. OlÃ­an a cloaca, a pelo podrido, y por encima de todo, a ese dulzor metÃ¡lico y agrio que quemaba la garganta: el aroma de la falla genÃ©tica, del primer experimento desechado y olvidado que habÃ­a encontrado una manera horrible de sobrevivir.
+GakÃ³ se plantÃ³ como un muro delante de Madame VÃ©ga buscando su protecciÃ³n. Sus manos se encontraron, rozando con un contacto elÃ©ctrico que aseguraba la disposiciÃ³n del uno al otro. 
+â€”Solo estamos de paso â€”dijo GakÃ³, con una voz ronca que cortÃ³ el chirrido constanteâ€”. No nos interesan sus problemas.
+La rata jefa emitiÃ³ un sonido que era una risa ahogada por un espasmo.
+â€”Pro-problemasâ€¦ â€”escupiÃ³ la palabra como si le quemara la bocaâ€”. Lo-os problemas so-on el lodo que nos cri-Ã­a. â€”Su hocico, lleno de cicatrices y verrugas, se orientÃ³ hacia VÃ©ga. Sus fosas nasales se dilataronâ€”. Pero tÃºâ€¦ tÃº hueles a li-impie-ieza en la podre-dura. Hue-eles aâ€¦ a paz.
+VÃ©ga no se inmutÃ³. Su cuerpo era una lÃ­nea tensa de elegancia mortal. â€”No sÃ© de quÃ© hablanâ€”respondiÃ³, su voz era frÃ­a como el acero de las paredes que los encallejaban, pero GakÃ³, tan cerca, sintiÃ³ el leve temblor que recorrÃ­a su brazo.
+â€”Mi-ienteeee â€”chillÃ³ una rata mÃ¡s joven, sus ojos verdes ardÃ­an con una lucidez aterradoraâ€”. Ã‰l nos hi-izo asÃ­. El brilla-ante. Ver-tiÃ³ su ve-eneno en la-as aguas y nos con-con-virtiÃ³ en es-to. En su monu-monumento a la arro-gancia. â€”Una convulsiÃ³n la sacudiÃ³, y de su boca brotÃ³ un hilo de baba verde que goteÃ³ al suelo y humeÃ³ levementeâ€”. Pero su ve-enenoâ€¦ en noso-so-otrasâ€¦ no es estable. Nos quema por dentro-tro. Nos vuelve lo-lo-cas. Necesi-ita-mosâ€¦ calma-ma.
+ GakÃ³ lo vio entonces. No eran monstruos sedientos de caos. Eran pacientes en una agonÃ­a perpetua. El Simplasto-9 en ellas no era un veneno refinado y lento como el de VÃ©ga; era un incendio incontrolado que les corroÃ­a la mente y el cuerpo, otorgÃ¡ndoles una inteligencia retorcida y un dolor constante. VÃ©ga, con su carga estable, era el espejo de lo que ellos anhelaban: la cordura dentro de la pesadilla.
+â€”Su-su sangreâ€¦ â€”la rata jefa alzÃ³ una garra que mÃ¡s que una pata, parecÃ­a una raÃ­z enfermaâ€” es la es-ponja que ab-sorbe-be el fue-ego. La usa-are-mos. Para a-pren-der. Para de-tener la quem-a-azÃ³n. Para en-contrar pa-az, aunque sea por un mo-omento. A la fue-er-za, si es necesario.
+â€”Â¡GakÃ³! â€”El grito de Madame VÃ©ga fue una advertencia clara.
+Un ademÃ¡n bastÃ³ para iniciar la estrategia. Un grupo de ratas se lanzaron bajo las piernas de GakÃ³, enredÃ¡ndose en sus botas y los bajos de su pantalÃ³n. El festÃ­n de dientes y garras destrozaron la tela y lo anclaron al suelo en un abrir y cerrar de ojos. Otras dos saltaron por los lados, distrayÃ©ndolo.
+Madame VÃ©ga esquivÃ³ el primer embate con una gracia felina que era un espectÃ¡culo macabro en la penumbra. Su pierna se alzÃ³ en una patada circular que impactÃ³ en el costado de una rata, enviÃ¡ndola a chocar contra una estanterÃ­a con un crujido de huesos. Su brazo se moviÃ³ como un lÃ¡tigo, desviando una mordida que buscaba su cuello, y sus dedos, finos y fuertes, se clavaron en los ojos de la criatura, que chillÃ³ y retrocediÃ³.
+Sin embargo, las ratas tenÃ­an la ventaja en nÃºmero y una inteligencia coletiva enloquecida. Mientras GakÃ³ rugÃ­a, intentando liberar sus piernas aplastando cabezas con los talones, la verdadera trampa se activÃ³ desde arriba. Ratas mÃ¡s pequeÃ±as y Ã¡giles, que se habÃ­an camuflado entre las vigas oxidadas del techo, se dejaron caer. Portaban cables gruesos, recubiertos de goma gastada y metal oxidado, que colgaban como serpientes.
+Una de ellas se enredÃ³ alrededor del brazo que VÃ©ga alzaba para defenderse. Otra se enrollÃ³ en su tobillo. No habÃ­a un plan coordinado visible, sino una sincronÃ­a instintiva y brutal. Otras ratas en el suelo, olvidÃ¡ndose de GakÃ³, tiraron de los extremos libres de esos cables con una fuerza comunal sorprendente.
+Madame VÃ©ga fue derribada de golpe. CayÃ³ de lado con un jadeo forzado, y antes de que pudiera reaccionar, mÃ¡s cables la envolvieron, atando sus miembros entre sÃ­ en el menor tiempo posible. ForcejeÃ³, sus mÃºsculos se tensaban bajo la presiÃ³n del metal y la goma, pero cada movimiento atraÃ­a mÃ¡s cables, mÃ¡s ratas que tiraban de ellos, apretando los nudos con destreza.
+â€”Â¡NO SE ATREVANâ€¦! â€”El clamor de GakÃ³ venÃ­a de lejos. HabÃ­a logrado liberar una pierna, y con un movimiento desesperado, se abalanzÃ³ hacia la masa retorcida de ratas y cables que ahora cubrÃ­an a VÃ©ga.
+La rata jefa se interpuso en su camino. Su cuerpo se sacudÃ­a, pero a su vez, entrecortada, era tremendamente lÃºcida. De un golpe, mandÃ³ el cuerpo de GakÃ³ hacia una esquina, dejÃ¡ndolo inmÃ³vil y Ãºnicamente consciente para ser testigo del Ãºltimo avistamiento de Madame VÃ©ga. 
+â€”So-olo la es-tudi-are-mos. Te-ene-mosâ€¦ to-odo el tiempo del mu-undo bajo la tie-erra-rra.
+La respiraciÃ³n de GakÃ³ ardÃ­a en sus pulmones, la impotencia le sabÃ­a amargo. Vio cÃ³mo el enjambre arrastraba a VÃ©ga, ahora completamente atada por los cables que se hundÃ­an en su piel, hacia una grieta en la pared trasera que se dejÃ³ abrir ante un movimiento raudo de la rata jefa, una herida oscura en el hormigÃ³n que parecÃ­a conducir a las entraÃ±as mÃ¡s profundas de la ciudad. Sus ojos, grandes y llenos de una desesperaciÃ³n helada, se encontraron con los de Ã©l. Ambos compartiendo el dolor.
+â€”El laboratorioâ€¦ â€”logrÃ³ articular VÃ©ga, en un silbido forzado entre la presiÃ³n de los cablesâ€”.
+Una rata trepÃ³ por el cable que le aprisionaba el torso y le apretÃ³ la boca, ahogando cualquier otra palabra.
+Y entonces, la oscuridad la desvaneciÃ³. La grieta sellÃ³. El chirrido de los cables raspando contra el cemento se mezclÃ³ con el lastimero tartamudeo de las ratas, que fue apagÃ¡ndose hasta quedar en un silencio absoluto.
+GakÃ³ se quedÃ³ solo en la habitaciÃ³n. Jadeando, con la ropa hecha trizas y manchada de su propia sangre y del barro verde de las ratas. MirÃ³ sus manos. Sangraban por docenas de cortes superficiales y suciedad incrustada. Los retazos de su camisa colgaban, revelando moretones que ya empezaban a florecer en su piel. Pero el dolor fÃ­sico era una nota lejana, un zumbido distante comparado con el vacÃ­o glacial que se expandÃ­a en su centro.
+No era solo una compaÃ±era lo que se habÃ­an llevado. Era el Ãºnico fragmento de certeza en esta ciudad podrida. Era la prueba viviente de que su lucha no era en vano, de que habÃ­a algo mÃ¡s que buscar ademÃ¡s de un pasado muerto. Ella era el presente. Un presente envenenado, frÃ¡gil, pero real. Y se lo habÃ­an arrancado.
+Entonces se dio cuenta. Todo lo demÃ¡sâ€”el laboratorio, la pantera, el putrefacto Simplasto-9â€”era solo ruido estÃ¡tico en su camino hacia la Ãºnica cosa que importaba ahora.
+EnderezÃ³ la espalda, ignorando el protestar de sus mÃºsculos. El cansancio, la derrota, el dolorâ€¦ se convirtieron en combustible.
+Sin prisa, con una calma que era mÃ¡s aterradora que cualquier muestra de pÃ¡nico, se arrancÃ³ la tela suelta de su camisa. Se limpiÃ³ las manos en lo que quedaba de sus pantalones, sin apartar la mirada de la grieta que juraba no volver a abrirse. 
+Y asÃ­, en el silencio cargado de la habitaciÃ³n, GakÃ³ Barello empezÃ³ a moverse. El eco de un solo pensamiento lo guiaba: Volver a sentir esa calidez a su lado, o no volver en absoluto.`
+    },
+    {
+      title: "CapÃ­tulo 11",
+      text: `El silencio de la habitaciÃ³n abandonada pesaba como plomo fundido. GakÃ³ se quedÃ³ inmÃ³vil durante largos minutos, observando la grieta sellada por donde habÃ­a desaparecido VÃ©ga. Su respiraciÃ³n se habÃ­a calmado, pero en su interior algo habÃ­a cambiado. El detective que buscaba respuestas se habÃ­a transformado en algo mÃ¡s primitivo: un depredador que habÃ­a perdido lo Ãºnico que le importaba. 
+
+Se acercÃ³ a la pared donde estaban dispersas las fotografÃ­as. Con manos que ya no temblaban, las organizÃ³ metÃ³dicamente. Su madre sonriente junto al hombre que ahora sabÃ­a era el detective 636. La pantera negra al fondo. El laboratorio de Lucky Fish. Las piezas de un rompecabezas que habÃ­a estado frente a Ã©l toda su vida. 
+
+â€”Todo conecta â€”murmurÃ³, pasando el dedo por el rostro de su madre en una de las fotosâ€”. La pregunta es por dÃ³nde empezar a desarmarlo. 
+
+GuardÃ³ las fotografÃ­as mÃ¡s importantes en su chaqueta desgarrada. El resto las dejÃ³ caer, pero no sin antes memorizar cada detalle. En una esquina de la habitaciÃ³n encontrÃ³ algo que las ratas habÃ­an pasado por alto: un mapa esquemÃ¡tico de la ciudad, marcado con puntos rojos y lÃ­neas que conectaban diferentes ubicaciones. Lucky Fish, NÃ©ctar, los muelles, la librerÃ­a de Don DelÃ­a... y algo mÃ¡s. 
+
+Un punto marcado en las profundidades, debajo del distrito financiero. Una etiqueta apenas legible: "NÃºcleo Primario - Nivel -5". 
+
+GakÃ³ estudiÃ³ las marcas. Las lÃ­neas no eran rutas de superficie, sino tÃºneles. Una red subterrÃ¡nea que corrÃ­a por toda Ciudad Sardina como las venas de un cuerpo enfermo. Y si las ratas habÃ­an llevado a VÃ©ga hacia abajo, era probable que estuvieran usando parte de esa misma red. 
+
+El sonido de pasos metÃ¡licos resonÃ³ desde el pasadizo por donde habÃ­a llegado. Voces bajas, disciplinadas. Los agentes de NÃ©ctar finalmente habÃ­an encontrado la entrada. 
+
+GakÃ³ doblÃ³ el mapa y se lo guardÃ³ junto a las fotografÃ­as. MirÃ³ alrededor buscando otra salida y la encontrÃ³: una ventilaciÃ³n en el techo, apenas visible entre las sombras. SubiÃ³ por una estanterÃ­a tambaleante y logrÃ³ abrir la rejilla oxidada. 
+
+Mientras se deslizaba por el conducto estrecho, escuchÃ³ voces abajo: 
+
+â€”El detector marca residuos recientes de Simplasto-9. Estuvieron aquÃ­. â€”Â¿Y las ratas? â€”TambiÃ©n. Hay rastros de arrastre hacia el sector 7. 
+
+GakÃ³ sonriÃ³ amargamente en la oscuridad del conducto. Los agentes de NÃ©ctar conocÃ­an la red subterrÃ¡nea mejor que Ã©l, pero tenÃ­an algo que Ã©l no: protocolos. Reglas. JerarquÃ­as que los hacÃ­an predecibles. 
+
+Ã‰l no tenÃ­a nada que perder. 
+
+El conducto lo llevÃ³ hasta el sÃ³tano de un edificio residencial abandonado a tres cuadras de la fÃ¡brica. SaliÃ³ por una ventana rota al callejÃ³n trasero, donde la lluvia seguÃ­a cayendo con la misma intensidad implacable de siempre. 
+
+Ciudad Sardina de noche era un laberinto de neÃ³n roto y sombras hÃºmedas. Pero GakÃ³ conocÃ­a cada rincÃ³n, cada atajo, cada secreto que la ciudad guardaba. Y ahora tenÃ­a algo mÃ¡s: un propÃ³sito que quemaba mÃ¡s fuerte que cualquier veneno. 
+
+CaminÃ³ por las calles laterales, evitando las avenidas principales donde los drones de vigilancia patrullaban con sus ojos mecÃ¡nicos. Su destino era claro: tenÃ­a que llegar al distrito financiero y encontrar la entrada al NÃºcleo Primario. Pero primero necesitaba herramientas. Y informaciÃ³n. 
+
+En el sector conocido como "Mercado Negro", donde los comerciantes felinos vendÃ­an desde armas caseras hasta documentos falsificados, GakÃ³ encontrÃ³ lo que buscaba. El puesto de Mako, un gato tuerto especializado en electrÃ³nicos de dudosa procedencia. 
+
+â€”Barello â€”gruÃ±Ã³ Mako al verlo acercarse, echando un vistazo rÃ¡pido a ambos lados de la calleâ€”Te ves como la mierdaâ€”. 
+
+â€”Gracias por la informaciÃ³n mÃ©dica. 
+
+Mako siguiÃ³ organizando sus cables sin mirarlo directamente. â€”Hay precio sobre tu cabeza. Los de NÃ©ctar estÃ¡n moviendo dinero por toda la ciudad. 
+
+â€”Â¿CuÃ¡nto?  
+â€”Suficiente. 
+
+GakÃ³ puso la fotografÃ­a manchada de sangre sobre el mostrador. La imagen de la pantera negra en la fiesta de gala. 
+
+â€”Â¿Lo reconoces? 
+
+Mako echÃ³ un vistazo a la foto y inmediatamente apartÃ³ la vista, como si quemara. 
+
+â€”Jefe Sombra â€”murmurÃ³, sin levantar los ojos de sus mercancÃ­asâ€”. Guarda esa cosa. 
+
+â€”Â¿DÃ³nde puedo encontrarlo? 
+
+Por primera vez en la conversaciÃ³n, Mako levantÃ³ la cabeza y lo mirÃ³ directamente. Su ojo bueno brillaba con algo parecido a la preocupaciÃ³n genuina. 
+
+â€”Barello, escÃºchame bien â€”dijo en voz baja, acercÃ¡ndose al mostradorâ€”. Nos conocemos desde hace aÃ±os. Te he visto salir de lugares donde otros no vuelven. Pero esto... esto... No te metas ahÃ­. â€”susurrÃ³â€”. No se habla de Ã©l en voz alta. Dicen que es el verdadero poder detrÃ¡s de NÃ©ctar. Que ni siquiera los directores de la corporaciÃ³n conocen su verdadero nombre. Algunos dicen que fue el primer experimento exitoso del Simplasto-9â€”. 
+
+â€”Necesito... 
+
+â€”No â€”Mako lo cortÃ³â€”. Lo que necesitas es tomar el primer transporte fuera de esta ciudad podrida y no mirar atrÃ¡s. 
+
+GakÃ³ guardÃ³ la fotografÃ­a y se inclinÃ³ sobre el mostrador. 
+
+â€”Necesito un rastreador biolÃ³gico. De los buenos. 
+
+Mako suspirÃ³ profundamente, negando con la cabeza. 
+
+â€”Para encontrar a alguien que se llevaron bajo tierra â€”agregÃ³ GakÃ³. 
+
+â€”Maldita sea, Barello â€”Mako desapareciÃ³ detrÃ¡s de su puesto y regresÃ³ con una caja negra del tamaÃ±o de un reloj de bolsilloâ€”. Te va a costar todo lo que tienes. Y probablemente la vida tambiÃ©n. 
+
+â€”Perfecto. No planeo necesitar dinero despuÃ©s de esta noche. 
+
+Mako extendiÃ³ la mano para tomar el pago, pero no soltÃ³ el dispositivo. 
+
+â€”Si cambias de opiniÃ³n... si decides que quieres ver el amanecer una vez mÃ¡s... hay una bodega en el puerto este. Pregunta por el CapitÃ¡n Seco. Te puede sacar de la ciudad, sin preguntas. 
+
+â€”Gracias, Mako. 
+
+â€”No me las des. Si sobrevives a esta locura, promete que nunca volveremos a hablar de este tema. 
+
+Dos horas despuÃ©s, GakÃ³ descendÃ­a por una alcantarilla en el distrito financiero, llevando consigo un rastreador biolÃ³gico del tamaÃ±o de un reloj de bolsillo y una pistola de dardos cargada con sedante suficiente para tumbar a un rinoceronte. El rastreador habÃ­a captado inmediatamente las trazas de VÃ©ga: su firma biolÃ³gica alterada por el Simplasto-9 era Ãºnica, inconfundible. 
+
+La red de tÃºneles bajo el distrito financiero era diferente a las alcantarillas comunes. AquÃ­ los muros eran de hormigÃ³n pulido, las luces funcionaban, y el aire circulaba a travÃ©s de sistemas de ventilaciÃ³n modernos. Esto no era infraestructura abandonada: era un complejo activo. 
+
+El rastreador lo guiÃ³ por pasillos que se hundÃ­an cada vez mÃ¡s profundamente. Nivel -1, -2, -3. A medida que descendÃ­a, el aire se volvÃ­a mÃ¡s espeso, cargado de un olor quÃ­mico dulzÃ³n que le recordaba al aroma del Simplasto-9, pero mÃ¡s concentrado. 
+
+En el nivel -4, escuchÃ³ las primeras voces. No el tartamudeo desesperado de las ratas, sino conversaciones tranquilas, profesionales. Se pegÃ³ a la pared y avanzÃ³ con cuidado hasta llegar a una esquina desde donde podÃ­a observar. 
+
+El pasillo se abrÃ­a a una sala amplia llena de jaulas. Y en esas jaulas... 
+
+GakÃ³ sintiÃ³ que se le helaba la sangre. Decenas de felinos, todos mostrando diferentes estadios de infecciÃ³n por Simplasto-9. Algunos apenas tenÃ­an lÃ­neas verdes bajo la piel. Otros estaban completamente transformados, sus cuerpos distorsionados por mutaciones que los convertÃ­an en algo que ya no era reconociblemente felino. 
+
+Y entre las jaulas, moviÃ©ndose con batas blancas y portapapeles, cientÃ­ficos que tomaban notas con la frialdad de quien documenta el clima. 
+
+El rastreador vibrÃ³ suavemente. La seÃ±al de VÃ©ga venÃ­a del nivel -5. 
+
+GakÃ³ cerrÃ³ los ojos un momento, respirando profundamente. Lo que estaba a punto de hacer no tenÃ­a vuelta atrÃ¡s. Pero cuando pensÃ³ en VÃ©ga atada con cables, en su mirada desesperada antes de desaparecer en la oscuridad, supo que no tenÃ­a elecciÃ³n. 
+
+CargÃ³ la pistola de dardos y se adentrÃ³ en las sombras del laboratorio subterrÃ¡neo, donde la verdad detrÃ¡s de Ciudad Sardina esperaba en el nivel mÃ¡s profundo del infierno.`
+    },
+    {
+      title: "CapÃ­tulo 12",
+      text: `De pronto, una luz cegadora lo envolviÃ³. Antes de que sus ojos pudieran adaptarse, un golpe seco y preciso en la nuca, ejecutado con la frialdad de quien conoce los puntos dÃ©biles del cuerpo felino, lo derribÃ³. CayÃ³ de rodillas, aturdido, mientras unas manos le quitaban la pistola de dardos y lo arrastraban por un pasillo.
+Lo arrojaron contra el suelo metÃ¡lico. Parpadeando para disipar las manchas en su visiÃ³n, GakÃ³ vio la figura de su atacante recortarse contra la luz de un monitor. 
+â€”Â¿Mako? â€”La voz de GakÃ³ fue un aliento ronco, mÃ¡s de incredulidad que de dolorâ€”. Â¿QuÃ© te crees que haces?
+Mako no llevaba su habitual atuendo de mercachifle. VestÃ­a ropas oscuras y funcionales, pero en su cinturÃ³n colgaban herramientas de alta precisiÃ³n, del mismo tipo que GakÃ³ le habÃ­a visto vender en el mercado negro.
+â€”Salvando tu pellejo, idiota â€”respondiÃ³ Mako, secÃ¡ndose el sudor de sus almohadillas con un paÃ±ueloâ€”. Ibas directo a una zona de escaneo tÃ©rmico. HabrÃ­an activado las alarmas silenciosas y te habrÃ­an cazado antes de llegar a la siguiente esquina.
+â€”HabÃ­an otras maneras sin tener que noquearmeâ€”espetÃ³ Ã©l, incorporÃ¡ndose con cuidado. NotÃ³ que no estaba atado. Un pequeÃ±o detalle que le resultÃ³ intrigante.
+â€”Necesitaba asegurarme de que me escucharÃ­as â€”Mako se cruzÃ³ de brazosâ€”. Porque lo que tengo que decirte no es algo que se diga en un pasillo. AquÃ­ estamos a salvo. Por ahora.
+â€”Â¿A salvo? â€”GakÃ³ mirÃ³ a su alrededor. Era una pequeÃ±a sala de almacenamiento de mantenimiento, abarrotada de cajas y componentes electrÃ³nicosâ€”. Trabajas para ellos. Me diste el rastreador. Â¿Fue una trampa desde el principio?
+Mako soltÃ³ un suspiro profundo, cargado de un peso que parecÃ­a arrastrar aÃ±os. â€”El rastreador es genuino. Pero sÃ­, trabajo para NÃ©ctar. DiseÃ±o sus artefactos. Los mismos que luego vendo para que tipos como tÃº tengan una oportunidad de defenderse. â€”Su voz era plana, como si recitara un hecho inevitableâ€”. Es mi pequeÃ±a y patÃ©tica rebeliÃ³n. Saber el daÃ±o que causan y tratar de poner un poco de equilibrio en la balanza.
+â€”Â¡Equilibrio! â€”GakÃ³ se riÃ³, un sonido Ã¡spero y carente de humorâ€”. DiseÃ±as herramientas para una mÃ¡quina de matar y crees que vendiendo algunas a escondidas limpias tu conciencia. Eso no es equilibrio, Mako, es hipocresÃ­a.
+â€”Â¡Es supervivencia! â€”La voz de Mako estallÃ³, rompiendo su fachada de controlâ€”. Â¿Crees que lo hago por gusto? Â¡Tengo una hija, Barello! â€”La confesiÃ³n saliÃ³ de sus labios como un grito ahogadoâ€”. Y estÃ¡ aquÃ­. Enferma. Contagiada. NÃ©ctar me ofrece los recursos para mantenerlaâ€¦ estable. A cambio de mi servidumbre. Â¿QuÃ© harÃ­as tÃº? Â¿QuÃ© no harÃ­as por la persona que amas?
+GakÃ³ iba a responder con otra acusaciÃ³n, pero Mako, con un gesto brusco de derrota, se acercÃ³ a una pared que parecÃ­a sÃ³lida y deslizÃ³ un panel oculto. RevelÃ³ una ventana de observaciÃ³n que daba a una celda adyacente.
+â€”MÃ­rala â€”dijo, su voz convertida en un susurro rotoâ€”. MÃ­rala y luego dime quÃ© elecciÃ³n tendrÃ­as.
+GakÃ³ se acercÃ³. Lo que vio al otro lado del cristal le arrancÃ³ el aire de los pulmones. La criatura en la celda apenas guardaba un vago parecido con un felino. Era un amasijo de miembros retorcidos, con protuberancias Ã³seas que deformaban su silueta. Su piel era un mapa de cicatrices y tejido necrÃ³tico, y de su boca abierta en un gemido perpetuo salÃ­a una baba verdosa. Un ojo, desproporcionadamente grande y de un verde fluorescente, miraba hacia la nada con una ceguera absoluta. El olor a enfermedad se filtraba incluso a travÃ©s del sellado hermÃ©tico.
+Una oleada de nÃ¡usea, mezcla del horror visceral y el estrÃ©s acumulado de la noche, subiÃ³ por la garganta de GakÃ³. No pudo contenerse. Se girÃ³ y vomitÃ³ una bola de pelos seca y la poca agua que habÃ­a bebido horas atrÃ¡s, el cuerpo sacudido por espasmos involuntarios.
+â€”Diosâ€¦ â€”jadeÃ³, apoyando las patas en las rodillas.
+â€”Ellos me prometieron que, si cumplÃ­a cinco aÃ±os mÃ¡s, si diseÃ±aba lo que me pidieran, me darÃ­an el antÃ­doto â€”continuÃ³ Mako, hablando hacia el cristal, como si le explicara la situaciÃ³n a su hijaâ€”. Es la Ãºnica esperanza que me queda.
+GakÃ³, recuperÃ¡ndose, se enderezÃ³. El horror en sus ojos fue reemplazado por una lÃ¡stima profunda. â€”Mako, escÃºchame. El Ãºnico que podÃ­a crear un antÃ­doto era Lian, el hermano cientÃ­fico de VÃ©ga. NÃ©ctar lo tiene secuestrado. Si tuvieran una cura, Â¿cuÃ¡l serÃ­a el punto de todo su plan? A tu hijaâ€¦ no la quieren salvar. Te estÃ¡n usando.
+Mako sacudiÃ³ la cabeza con violencia, como un niÃ±o negÃ¡ndose a escuchar una verdad dolorosa. â€”Â¡No! Ellosâ€¦ ellos tienen los mejores recursosâ€¦ Â¡Tienen que tenerlo!
+â€”Â¿Para quÃ©? â€”insistiÃ³ GakÃ³â€”. Â¿Para quÃ© curar a tu hija si con su sufrimiento te tienen a ti, a su mejor tÃ©cnico, diseÃ±ando sus armas? Eres demasiado valioso para ellos.
+â€”Â¡CÃ¡llate! â€”gritÃ³ Mako, girÃ¡ndose con el taser en alto, sus ojos inyectados en sangreâ€”. Â¡No sabes nada! Â¡Ella es todo lo que me queda!
+â€”Â¡Esa no es tu hija! â€”La voz de GakÃ³ cortÃ³ el aire como un cuchillo, frÃ­a y brutalmente clara.
+Mako se abalanzÃ³ sobre Ã©l, un grito de rabia y dolor desgarrado saliendo de su garganta. El taser brillÃ³ con un zumbido amenazador. GakÃ³, se enrollÃ³ sobre sÃ­ mismo y, usando las piernas, barriÃ³ los pies de Mako, haciÃ©ndolo caer al suelo. El taser saliÃ³ volando.
+ â€”Â¡Mira! â€”rugiÃ³ GakÃ³, arrastrÃ¡ndose sobre Mako, inmovilizÃ¡ndolo con su pesoâ€”. Â¡MÃ­rala! Â¿QuÃ© queda de tu hija ahÃ­? Â¡Nada! Â¡Solo dolor! Â¡EstÃ¡s protegiendo su agonÃ­a, no su vida! NÃ©ctar te mintiÃ³. La Ãºnica forma de salvarla, de darle paz, es acabando con esto. Y para eso necesito llegar a VÃ©ga. Ella es la llave para encontrar a su hermano. Es la Ãºnica esperanza real.
+Mako forcejeÃ³ bajo Ã©l, pero la lucha no era solo fÃ­sica. Era contra la verdad que durante aÃ±os habÃ­a rechazado. Sus mÃºsculos se tensaron y luego, de pronto, cedieron. Un sollozo profundo y desgarrador escapÃ³ de su pecho. Todo su cuerpo se estremeciÃ³ mientras la resistencia se quebraba, dejando al descubierto una desesperaciÃ³n absoluta.
+â€”Ya se fueâ€¦ Â¿verdad? â€”susurrÃ³, su voz apenas audibleâ€”. Mi pequeÃ±a gatita ya se fue.
+GakÃ³ lo acompaÃ±Ã³ por unos minutos a encarar la realidad, mientras Mako aÃºn le sostenÃ­a, traspasando su dolor emocional a lo fÃ­sico. CerrÃ³ su Ãºnico ojo, apretÃ¡ndolo con fuerza. Cuando lo abriÃ³, la locura desesperada habÃ­a sido reemplazada por una resignaciÃ³n lÃºcida y peligrosa.
+â€”El nÃºcleo â€”dijo, su voz ronca pero firmeâ€”. La puerta se abre con una muestra de Simplasto estable. â€”Se liberÃ³ de GakÃ³â€”. Yo te llevo. Pero cuando esto empiece, no habrÃ¡ vuelta atrÃ¡s para ninguno de los dos.
+GakÃ³ se puso de pie, frotÃ¡ndose las muÃ±ecas. â€”Lo sÃ©.
+Sin perder un segundo mÃ¡s, Mako se arrastrÃ³ hacia su consola improvisada. Sus dedos, ahora firmes, volaron sobre el teclado, desplegando esquemas de los niveles inferiores que ningÃºn intruso deberÃ­a tener.
+â€”El Nivel -5 no es un laboratorio mÃ¡s â€”explicÃ³, seÃ±alando un diagrama circularâ€”. Es el NÃºcleo Primario. Un biorreactor a gran escala. La pantera lo usa como santuario personal y centro de operaciones. â€”SeÃ±alÃ³ un punto ciego en el plano, cerca de los ductos de ventilaciÃ³n principalâ€”. AquÃ­. La puerta de biocontenciÃ³n. Tiene escÃ¡neres con firma viral. Solo responde al Simplasto-9 en su estado mÃ¡s puro y estable, como el queâ€¦ como el que tiene tu felina.
+GakÃ³ asintiÃ³, estudiando el plano con una intensidad que ahuyentaba cualquier resto de fatiga. â€”El rastreador que me diste tiene una muestra de su tipo de sangre.
+â€”SÃ­ â€”confirmÃ³ Mako, sacando un dispositivo interfaz del cajÃ³nâ€”. Pero es una cerradura inteligente. Al abrirla, alertarÃ¡ al sistema central de que se estÃ¡ usando una muestra de tan alto valor. Tendremos minutos, tal vez menos, antes de que toda la seguridad del nivel se active y la puerta se selle de forma permanente. Es una carrera contrarreloj.
+â€”Entonces no hay margen de error â€”concluyÃ³ GakÃ³â€”. Necesitamos una distracciÃ³n.
+Mako sonriÃ³, una expresiÃ³n torcida y llena de rencor. â€”Oh, tengo algo en mente. Durante aÃ±os he instalado puntos dÃ©biles deliberados en sus redes de energÃ­a de respaldo. PequeÃ±os regalos escondidos por si algÃºn dÃ­aâ€¦ â€”hizo un gesto con la manoâ€”. Bueno, por si algÃºn dÃ­a pasaba algo como esto. Puedo provocar un apagÃ³n localizado en el sector 3, lejos del nÃºcleo. HarÃ¡ que todas las fuerzas disponibles corran hacia allÃ­, pensando que es un ataque o un fallo crÃ­tico. Nos darÃ¡ la ventana que necesitamos.
+â€”Hazlo â€”dijo GakÃ³â€”. Yo me encargo de lo que haya dentro de esa puerta.
+Mientras Mako tecleaba los comandos finales para programar la distracciÃ³n, un silencio incÃ³modo, pero menos cargado de angustia, se instalÃ³ en la pequeÃ±a sala. La planificaciÃ³n los habÃ­a anclado de nuevo a la realidad, alejÃ¡ndolos del precipicio emocional.
+Fue Mako quien lo rompiÃ³, sin levantar la vista de la pantalla. â€”Nunca te vi tanâ€¦ enfocado, Barello. Ni siquiera con lo de tu madre. Esto es distinto.
+GakÃ³ no respondiÃ³ de inmediato, ajustando los botones de su abrigo. â€”Es una misiÃ³n. 
+â€”Una misiÃ³n, claro â€”Mako soltÃ³ una risa breve, secaâ€”. Porque arriesgarse a ser sellado vivo en un nido de mutantes y un psicÃ³pata con piel de pantera es solo "otra misiÃ³n". â€”Finalmente, girÃ³ su silla para mirarloâ€”. Es por ella, Â¿verdad? VÃ©ga.
+GakÃ³ desviÃ³ la mirada, fingiendo interÃ©s en una caja de herramientas. â€”No empieces, Mako.
+â€”Â¿QuÃ©? Es una pregunta legÃ­tima â€”insistiÃ³ el tÃ©cnico, con un deje de curiosidad genuinaâ€”. Â¿QuÃ© tiene esta felina que logrÃ³ perforar esa armadura de cinismo que tienes por piel? Â¿Es asÃ­ de buena? Â¿O es que por fin encontraste a alguien que te aguanta?
+â€”CÃ¡llate â€”gruÃ±Ã³ GakÃ³, pero sin verdadera fuerza.
+â€”Es solo queâ€¦ â€”Mako se encogiÃ³ de hombrosâ€”. En esta ciudad, encontrar a alguien por quien valga la pena quemarlo todoâ€¦ es raro. Muy raro. Y cuando pasa, negarlo es de tontos. â€”Su voz perdiÃ³ la bromaâ€” No dejes que el orgullo te haga perder tu oportunidad, Barello. Si ella te importa, afÃ©rrate a eso. Es lo Ãºnico que tiene sentido para hacer las locuras que estamos a punto de hacer.
+GakÃ³ guardÃ³ silencio por un largo momento. Observaba el plano en la pantalla, la ruta hacia el corazÃ³n de la pesadilla. Luego, sus ojos se posaron en el rastreador que palpitaba suavemente en su mano, mostrando la tenue pero constante seÃ±al de VÃ©ga.
+â€”Â¿Listo? â€”preguntÃ³ por fin, evitando directamente la pregunta, pero su tono habÃ­a suavizado.
+Mako entendiÃ³. Era la Ãºnica confesiÃ³n que obtendrÃ­a. SonriÃ³, una sonrisa triste pero cÃ³mplice. â€”SÃ­. En tresâ€¦ dosâ€¦ unoâ€¦
+ApretÃ³ una tecla. A lo lejos, un retumbo sordo sacudiÃ³ las paredes, seguido de un claxon de emergencia que comenzÃ³ a sonar en el sector 3. Las luces del nivel -4 parpadearon.
+â€”Ahora â€”dijo Mako, poniÃ©ndose de pieâ€”. Corre, Barello. Y trÃ¡ela de vuelta.`
+    },
+    {
+      title: "CapÃ­tulo 13",
+      text: `El retumbo llegÃ³ como un puÃ±etazo en el pecho de la estructura. Las luces se apagaron primero en franjas, luego en oleadas, y el zumbido de los ventiladores cayÃ³ en un silencio cortado por chasquidos elÃ©ctricos. En la oscuridad momentÃ¡nea, GakÃ³ se moviÃ³ antes de que la sensatez pudiera medir la estupidez.
+â€”Diez minutos â€”dijo Mako, sin abandonar la pantallaâ€”
+GakÃ³ asintiÃ³. No preguntÃ³. DejÃ³ caer su sombra por el pasillo, deslizÃ¡ndose por conductos y por huecos. Cada metro que avanzaba lo acercaba al verde mortecino que el rastreador marcaba como un corazÃ³n palpitante: la seÃ±al de VÃ©ga.
+El corredor final lo recibiÃ³ con un hedor metÃ¡lico y a carne rancia. Apenas dio un paso, una sombra lo interceptÃ³: un guardia de NÃ©ctar, traje blindado, lo rodeÃ³ por el cuello intentando quebrarle el aire. GakÃ³ respondiÃ³ como un resorte. Lo estampÃ³ contra la pared con violencia muda, inmovilizÃ¡ndolo con la garra hundida en la nuca. El detective acercÃ³ el hocico a su oreja, cada palabra convertida en cuchilla:
+â€”Â¿DÃ³nde la tienen? - Â¿DÃ³nde estÃ¡ VÃ©ga? â€”
+El guardia soltÃ³ una carcajada amarga.
+â€”Esa maldita se pudre en la sala del NÃºcleoâ€¦ â€”aÃ±adiÃ³ con una risaâ€” Igual que su hermano, ese lunÃ¡ticoâ€”.
+El pulso de GakÃ³ se endureciÃ³.
+â€”Â¿Su hermano? â€”la voz se volviÃ³ mÃ¡s baja, mÃ¡s peligrosaâ€”. Â¿DÃ³nde!? â€”
+El guardia tosiÃ³, escupiÃ³ sangre en la pared.
+â€”En una jaulaâ€¦ donde merece estar. IntentÃ³ alzarse contra el Jefe Sombra. Ahora aprendiÃ³ su lugarâ€”.
+Los dientes del guardia crujieron contra el concreto de la pared cuando GakÃ³ apretÃ³ mÃ¡s. No necesitaba mÃ¡s respuestas. Un golpe seco bastÃ³: guardia chocÃ³ con la pared y el cuerpo se desplomÃ³ como un saco vacÃ­o. Con la respiraciÃ³n aÃºn contenida, GakÃ³ siguiÃ³. Un letrero apenas visible seÃ±alaba la secciÃ³n de mantenimiento de jaulas. ForzÃ³ la compuerta apagada, que se abriÃ³ con un gemido peligroso, y entrÃ³.
+El aire estaba saturado de Ã³xido y podredumbre. Hileras de cuerpos felinos se alineaban en silencio enfermo: algunos respiraban agitados, con venas negras ramificÃ¡ndose bajo la piel; otros murmuraban en sueÃ±os rotos; varios golpeaban los barrotes con un odio puro, apenas controlado.
+GakÃ³ caminÃ³ entre ellos, sus pasos amortiguados por la mugre.
+â€”Â¿Lian? â€”preguntÃ³, susurrando a las sombras, la mirada recorriendo cada rostro desfigurado.
+Las respuestas fueron rugidos, zarpazos, insultos quebrados por la fiebre. Hasta que lo vio: en la esquina de una jaula, encorvado bajo una bata blanca manchada. El Ãºnico que no atacaba.
+GakÃ³ se acercÃ³ al barrotes.
+â€”Â¿Lian? â€”preguntÃ³, en voz baja.
+El felino levantÃ³ apenas la cabeza. Sus ojos, vidriosos, estaban clavados en un vacÃ­o que no terminaba. Las manos temblaban, los dedos ennegrecidos, reducidos a garras muertas por el Simplasto. AbriÃ³ la boca y lo Ãºnico que saliÃ³ fue un murmullo quebrado:
+â€”â€¦ VÃ©gaâ€¦ VÃ©gaâ€¦ VÃ©gaâ€¦
+El detective se inclinÃ³ mÃ¡s, apretando la mandÃ­bula.
+â€”Tu hermana estÃ¡ acÃ¡. EstÃ¡ viva. Te necesita. Yo necesito tu ayudaâ€”
+Los ojos del felino se levantaron, nublados, sin brillo, como pozos vacÃ­os. El nombre de VÃ©ga, repetido una y otra vez, se transformÃ³ en un murmullo desgarrado. Los temblores del cuerpo de Lian se intensificaron, como si luchara contra una corriente invisible. Su respiraciÃ³n se acelerÃ³, los dedos rasparon el suelo con torpeza, intentando aferrarse a algo. Entonces, un destello atravesÃ³ su mirada. MinÃºsculo. FrÃ¡gil. Pero real. Los ojos muertos parpadearon, y por un instante reconocieron la voz que lo llamaba.
+â€”â€¦ VÃ©gaâ€¦ â€”repitiÃ³, pero ya no era un eco automÃ¡tico. Era sÃºplica. Era conciencia.
+GakÃ³ lo sostuvo por los hombros, sintiendo la carne blanda y febril bajo la bata.
+Lian levantÃ³ la cabeza, apenas un gesto, pero suficiente para romper el embrujo. El espectro cediÃ³ paso a un hermano arrasado por el veneno, pero todavÃ­a vivo. Su cuerpo se estremeciÃ³, torpe y dolorido, sin fuerza, pero obediente a una sola cosa: el nombre de su hermana. GakÃ³ lo ayudÃ³ a levantarse. 
+â€”La tienen en la sala del nÃºcleo, guÃ­ameâ€”
+El Simplasto parecÃ­a querer tragÃ¡rselo a cada paso, pero Lian, guiado por esa chispa, siguiÃ³. Entre jadeos y temblores, apenas logrÃ³ pronunciar:
+â€”â€¦VÃ©ga..n..nÃºcleo â€¦â€”
+El pasillo final desembocaba en un portÃ³n metÃ¡lico con marcas de Ã¡cido. El retumbar constante se mezclaba con el zumbido grave de generadores ocultos. GakÃ³, con Lian tambaleante a su lado, empujÃ³ la compuerta. Dentro, la sala del NÃºcleo brillaba con un resplandor enfermizo: tanques transparentes, tuberÃ­as que latÃ­an como venas, y en el centro, un podio rodeado de cables donde yacÃ­a VÃ©ga, suspendida entre la vida y la muerte.
+Un guardia apareciÃ³ del flanco, sorprendido. Ni siquiera alcanzÃ³ a gritar. GakÃ³ lo interceptÃ³ con un tajo seco: su cabeza rebotÃ³ contra un panel de control, cayendo inerte al suelo. El detective apenas lo mirÃ³; sus ojos estaban fijos en el cuerpo de VÃ©ga, con los cables enroscados como serpientes.
+â€”VÃ©gaâ€”exhalÃ³ Lian balanceÃ¡ndose.
+El cientÃ­fico, tambaleÃ¡ndose, corriÃ³ hacia a su hermana. Sus manos negras y frÃ¡giles se aferraron a los conectores, tirando con torpeza. Cada movimiento era un suplicio. El Simplasto lo devoraba, pero aun asÃ­ arrancaba cables con la desesperaciÃ³n de un condenado. Un ruido lo interrumpiÃ³: pasos rÃ¡pidos en las escaleras metÃ¡licas. Un ingeniero con una tablet gritÃ³ Ã³rdenes, subiendo hacia una oficina elevada con ventanales. GakÃ³, entre la rabia y la urgencia, lo siguiÃ³ con la mirada. Dio un paso, pero ya era demasiado tarde.
+â€”ApurÃ©monosâ€” suplicÃ³ GakÃ³ mientras ayudaba a Lian a desconectar a VÃ©ga.
+Un sonido llegÃ³ primero: huesos rompiÃ©ndose como ramas secas. Luego, un estampido brutal. El cuerpo del ingeniero que subiÃ³ las escaleras saliÃ³ disparado como un proyectil, atravesÃ³ la baranda y se estampÃ³ contra la pared con un golpe sordo. 
+El silencio fue absoluto por un segundo.
+GakÃ³ se quedÃ³ helado. Lian, paralizado, con las garras aun sujetando un cable arrancado. Ambos miraron el cadÃ¡ver contra el muro, retorcido como una muÃ±eca rota. La conclusiÃ³n fue inmediata. Los dos sabÃ­an quÃ© significaba.
+Los escalones comenzaron a vibrar. Pesados, lentos. Una sombra descendÃ­a. Una risa grave llenÃ³ la sala, reptando por los muros como veneno. Una risa quebrada, tensa, cargada de frustraciÃ³n contenida. Bajaba las escaleras. Enorme. Negro como una noche sin luna. El brillo de su pelaje era antinatural, metÃ¡lico. Sus ojos, dos puÃ±ales amarillos.
+Lian, temblando mÃ¡s que nunca, apretÃ³ los dientes hasta casi romperlos. RepetÃ­a entre sollozos:
+â€”â€¦ VÃ©gaâ€¦ VÃ©gaâ€¦ VÃ©gaâ€¦
+Sus dedos deformes seguÃ­an trabajando en los conectores, arrancando los Ãºltimos cables que mantenÃ­an a su hermana inconsciente. GakÃ³, con la mandÃ­bula rÃ­gida, girÃ³ lentamente hacia la escalera, sabiendo que el monstruo al fin se mostraba. La risa del Jefe Sombra resonÃ³ otra vez, pero sus ojos brillaban con ira. Una ira antigua, que por fin encontraba un motivo para arder.
+El Jefe Sombra descendÃ­a despacio, con la seguridad de quien nunca habÃ­a sido detenido en su vida. GakÃ³, con la garganta seca, sacÃ³ la pistola de dardos que aÃºn colgaba de su cinturÃ³n. La cargÃ³ temblando, cada clic resonando como si fuera un disparo en la sala.
+â€”No tenÃ­as que meterte en esto, Barello â€”retumbÃ³ la voz del Jefe Sombra, grave, amortiguada por una calma irÃ³nicaâ€”. Nadie te llamÃ³. Arruinar planes no es de detectives, Â¿sabes? â€”
+Las palabras bajaban con Ã©l, acompaÃ±adas del eco de los escalones que gemÃ­an bajo su peso. GakÃ³, jadeando, apretÃ³ el gatillo. El primer dardo se clavÃ³ en el pelaje oscuro. Luego otro, y otro. Una rÃ¡faga completa.
+El Jefe Sombra ni se detuvo. BajÃ³ la mirada hacia los dardos como si fueran simples astillas. Se los arrancÃ³ sin dolor, uno por uno, dejÃ¡ndolos caer al suelo. RiÃ³. Una carcajada hueca que congelÃ³ la sangre en el aire. Se acercÃ³ lo suficiente como para sujetar el caÃ±Ã³n de la pistola. Con una sola presiÃ³n de sus garras, el metal crujiÃ³ como vidrio, retorciÃ©ndose hasta ser polvo entre sus manos. El golpe vino despuÃ©s. Un manotazo seco lo lanzÃ³ unos metros, dejando a GakÃ³ con la respiraciÃ³n cortada y la sangre bajando por su frente.
+â€”Â¿Sabes, Barello? â€”su voz se tiÃ±Ã³ de un tono que parecÃ­a compasiÃ³nâ€”. Tu madre empezÃ³ todo esto. Mis mÃ¡s preciados respetos. Ella y yoâ€¦ tenÃ­amos la misma visiÃ³n. Limpiar Sardina. Transformarla. Pero ese estÃºpido felinoâ€¦ â€”una mueca cruzÃ³ su rostro, recordandoâ€” â€¦636â€¦Se le metiÃ³ en la cabeza. IntentÃ© advertirle, pero ya era tardeâ€”. 
+El gigante avanzÃ³ hacia la camilla. VÃ©ga seguÃ­a inconsciente, conectada a los tubos que parecÃ­an alimentarla y devorarla a la vez. GakÃ³, arrastrÃ¡ndose, reuniÃ³ el aire suficiente para golpear con un pedazo de tuberia un tanque lateral. El vidrio reventÃ³ en una explosiÃ³n de lÃ­quido fosforescente. El Ã¡cido baÃ±Ã³ parte del cuerpo del Jefe Sombra, chisporroteando sobre su pelaje. El monstruo rugiÃ³, no de dolor, sino de furia.
+Lian, con lo poco que le quedaba de fuerza, logrÃ³ desconectar a su hermana y bajarla de la camilla. Apenas podÃ­a sostenerla, su cuerpo se doblaba marchito, pero aun asÃ­ la arrastrÃ³ hasta la esquina. VÃ©ga abriÃ³ los ojos entre lÃ¡grimas, reconociÃ©ndolo, y el horror la atravesÃ³ al ver su estado.
+â€”Â¿Lian? â€”gritÃ³ confundida, aferrando su brazo.
+Ã‰l sonriÃ³. Una sonrisa rota, resignada. Se levantÃ³ la bata y mostrÃ³ el antebrazo corrompido por venas negras que latÃ­an como raÃ­ces venenosas. MetiÃ³ la mano temblorosa en un bolsillo interior de su bata y sacÃ³ un papel doblado, manchado de sangre y quÃ­micos. Una fÃ³rmula. Su Ãºltimo legado.
+â€”Câ€¦ cuâ€¦ curaâ€¦ â€”susurrÃ³ con un hilo de voz.
+VÃ©ga, llorando, negÃ³ con la cabeza, incapaz de aceptar la situaciÃ³n. El temblor ya era incontrolable, pero aun asÃ­ la depositÃ³ en las garras de VÃ©ga. El Jefe Sombra lo levantÃ³ del suelo por el cuello con una sola garra, como si fuera un muÃ±eco vacÃ­o. Lian apenas alcanzÃ³ a mirar una vez mÃ¡s a su hermana, la sonrisa intacta. Con la otra mano, el monstruo lo sujetÃ³ por la cabeza. Un movimiento seco, brutal. El crujido de huesos quebrÃ¡ndose llenÃ³ la sala.
+â€”Nunca hiciste bien tu trabajoâ€”escupiÃ³ el Jefe Sombra desinteresado en el cientÃ­fico.
+El cuerpo decapitado de Lian cayÃ³ como un saco frente a VÃ©ga.`
+    },
+    {
+      title: "CapÃ­tulo 14",
+      text: `Ella no gritÃ³. Un temblor violento, un espasmo de puro horror, recorriÃ³ su cuerpo de la cabeza a las patas. Sus ojos, desmesuradamente abiertos, registraban la escena con una lucidez agonizante, absorbiendo cada detalle de la muerte de su hermano como una quemadura en la retina. 
+El Jefe Sombra ni siquiera mirÃ³ el cuerpo. Su atenciÃ³n, completa y absoluta, se posÃ³ en VÃ©ga. Dio un paso hacia ella, y el suelo vibrÃ³. Su mera presencia fÃ­sica era una opresiÃ³n.
+GakÃ³ se interpuso, un movimiento torpe y doloroso. Su brazo, probablemente lesionado, colgaba a su costado. La pantera negra no se detuvo. Un golpe lateral, rÃ¡pido como un latigazo, impactÃ³ en el costado de GakÃ³ y lo enviÃ³ a estrellarse contra un banco de instrumentos. Metales y cristales estallaron a su alrededor.
+VÃ©ga retrocediÃ³, pero su espalda chocÃ³ con la pared metÃ¡lica frÃ­a. Sin mÃ¡s a donde ir. El Jefe Sombra posÃ³ su garra alrededor de su cuello con una presiÃ³n posesiva. La levantÃ³ lentamente, hasta que sus pies dejaron de tocar el suelo. Cada vez apretaba con mÃ¡s fuerza, con una sonrisa malÃ©vola, disfrutando el patalear al aire de VÃ©ga y el enrosco de su cola. La falta de aire le nublÃ³ la visiÃ³n. 
+Entre el dolor y la nÃ¡usea, GakÃ³ vio brillar algo en el suelo, cerca de la pata inmÃ³vil de Lian. Era un inyector. Sin conocer su contenido, habÃ­a todo que perder y nada por ganar. Con un gruÃ±ido, se arrastrÃ³ hacia Ã©l hasta alcanzarlo. No tenÃ­a tiempo para apuntar. Se lanzÃ³ hacia adelante y clavÃ³ la aguja en la parte posterior de la rodilla del gigante, donde la armadura era mÃ¡s flexible. 
+Un rugido, esta vez de genuino dolor y sorpresa, estallÃ³ en la sala. La garra que sujetaba a VÃ©ga se abriÃ³ por un reflejo involuntario. Ella cayÃ³ al suelo, tosiendo y jadeando, masas de aire frÃ­o entrando en sus pulmones con quemazÃ³n.
+GakÃ³ no esperÃ³. AgarrÃ³ a VÃ©ga del brazo y la arrastrÃ³ lejos del centro de la sala. â€”Tenemos una Ãºnica salidaâ€”exclamÃ³, seÃ±alando un matorral de tuberÃ­as sobrecalentadas que trepaban por la pared. 
+El Jefe Sombra enderezÃ³ su postura. El movimiento fue lento, deliberado. La furia habÃ­a desaparecido, reemplazada por una concentraciÃ³n absoluta. AvanzÃ³. Sus pasos ahora eran medidos, cada uno calculando el Ã¡ngulo de ataque. GakÃ³ empujÃ³ a VÃ©ga hacia la base de las tuberÃ­as. El calor era sofocante. Ella trepÃ³, ignorando la quemazÃ³n en sus almohadillas, usando las abrazaderas como peldaÃ±os. GakÃ³ la siguiÃ³, sintiendo el aire helado de una garra que pasÃ³ a centÃ­metros de su talÃ³n, hendiendo el metal de la pared.
+El camino los llevÃ³ a una plataforma suspendida sobre el reactor principal. AquÃ­ abajo, el nÃºcleo no era un espectÃ¡culo de luces. Era un festÃ­n de carne y mÃ¡quina. Capas de tejido biosintÃ©tico palpitaban rÃ­tmicamente, baÃ±adas por rÃ­os de lÃ­quido nutritivo que brillaban con una fosforescencia enfermiza. Era un hÃ­brido monstruoso, un corazÃ³n artificial que latÃ­a con una vitalidad obscena.
+El Jefe Sombra emergiÃ³ detrÃ¡s de ellos. Su silueta se recortÃ³ contra el paisaje orgÃ¡nico. No dijo nada. Solo los observÃ³, midiendo la distancia, el entorno. Era la quietud de un predador que ha eliminado todas las variables.
+GakÃ³ escaneÃ³ la plataforma. Su mirada se clavÃ³ en un conjunto de vÃ¡lvulas maestras, marcadas con seÃ±alÃ©tica de peligro extremo. Estaban unidas al sistema nervioso central del nÃºcleo.
+â€”Â¡Las vÃ¡lvulas! â€”le gritÃ³ a VÃ©gaâ€”.
+La mirada de VÃ©ga se posÃ³ en los controles. Sus patas volaron sobre una interfaz tÃ¡ctil. Rescatando el papel que Lian le habÃ­a dado en su Ãºltimo aliento, ingresÃ³ los nÃºmeros que observaba escritos hasta dar con la secuencia correcta. 
+Entonces, se sintiÃ³ un cambio en el zumbido del nÃºcleo. Una frecuencia nueva, discordante. La pantera girÃ³ hacia el centro del reactor. En un movimiento explosivo, se abalanzÃ³ sobre GakÃ³, decidido a eliminarlo dirigiendo sus garras como un puÃ±al hacia su garganta. 
+GakÃ³ se echÃ³ a un lado, la garra le desgarrÃ³ el hombro. El dolor fue agudo y limpio. Pero el movimiento del gigante lo habÃ­a llevado justo a la posiciÃ³n que VÃ©ga necesitaba.
+Una reacciÃ³n en cadena de un lÃ­quido espeso negro y denso brotÃ³ de boquillas ocultas, entrelazÃ¡ndose alrededor del gigante. 
+Al contacto con su piel, la sustancia no escurriÃ³. Se solidificÃ³ en una estructura precisa, una jaula de filamentos negros que se contrajo con fuerza brutal, aprisionÃ¡ndolo. Era un maleable inteligente, diseÃ±ado para neutralizar el compuesto del Simplasto-9.
+El Jefe Sombra forcejeÃ³. Los filamentos negros se tensaron, brillando con una luz opaca. Cada contracciÃ³n de sus mÃºsculos lo inmovilizaba aÃºn mÃ¡s. Contenido por una versiÃ³n corrompida de su propia esencia.
+Por primera vez, no hubo palabras. Solo la mirada del Jefe Sombra fija en ellos, como un frÃ­o reconocimiento de una variable no calculada. Un silencio mÃ¡s aterrador que cualquier amenaza.
+GakÃ³, sangrando profusamente del hombro, agarrÃ³ a VÃ©ga. No habÃ­a tiempo. Se lanzaron por un conducto de desagÃ¼e, dejando atrÃ¡s al titÃ¡n atrapado en su jaula de oscuridad, un problema pospuesto, no resuelto.
+El silencio de la cÃ¡mara de compensaciÃ³n era absoluto. GakÃ³ se apoyÃ³ contra la pared frÃ­a, conteniendo el jadeo. PresionÃ³ su pata contra la herida del hombro, conteniendo la sangre. VÃ©ga permaneciÃ³ de pie a varios metros de distancia. No lo miraba a Ã©l. Miraba sus propias patas, manchadas del sucio presente.
+Cuando hablÃ³, su voz era clara, carente de emociÃ³n, como si leyera un informe.
+â€”Mi hermano estÃ¡ muerto. Y tu madre no fue solo una cÃ³mplice.
+GakÃ³ alzÃ³ la vista, la confusiÃ³n nublando el dolor.
+â€”Ella fue la arquitecta â€”continuÃ³ VÃ©ga, sin alterar el tonoâ€”. La visionaria. El Jefe Sombra era solo el brazo ejecutor, el motor de la idea. Los planos, la teorÃ­a, la obsesiÃ³n por trascender la biologÃ­aâ€¦ eso era de tu madre â€”Hizo una pausa, dejando que el peso de la menciÃ³n de su madre se posara sobre Ã©lâ€”. Lian no encontrÃ³ solo muestras. EncontrÃ³ sus diarios. Sus cuadernos de diseÃ±o. Ella soÃ±aba con una ciudad que fuera un solo organismo, perfecto, controlado. Y nosotros, los felinos, Ã©ramos los glÃ³bulos blancos defectuosos que habÃ­a que eliminar oâ€¦ reconvertir.
+GakÃ³ sintiÃ³ que el suelo se abrÃ­a, y Ã©l, posaba bajo el horror de una verdad, cuyas piezas encajaban con una precisiÃ³n devastadora. Los recursos ilimitados, el aislamiento, los viajes "de investigaciÃ³n" de su madreâ€¦ todo cobraba un nuevo y terrible sentido.
+â€”TÃº â€”dijo VÃ©ga, y por primera vez su voz mostrÃ³ una grieta, un temblor de ascoâ€” eres el heredero de ese sueÃ±o. 
+Ã‰l se puso de pie, tambaleÃ¡ndose. El mundo se habÃ­a reducido a esta habitaciÃ³n y a la verdad monstruosa que ella enunciaba. Se acercÃ³, con un gesto de sÃºplica, tal cual de un felino que ve cÃ³mo se desmoronaba su razÃ³n ante sus ojos.
+â€”Podemos luchar juntos. Podemosâ€¦
+â€”Â¿Juntos? â€”La voz de VÃ©ga se elevÃ³, cargada de un desprecio tan intenso que casi tenÃ­a forma fÃ­sicaâ€”. Â¡No hay un "juntos"! Â¡Solo hay un antes y un despuÃ©s! Â¡Y en el despuÃ©s, yo veo a mi hermano muerto y a ti, parado sobre los huesos que tu familia acumulÃ³!
+Ã‰l llegÃ³ hasta ella, su mano buscÃ³ la suya en la penumbra. Su mirada era desesperada, urgente. En medio del caos y la muerte, ella se habÃ­a convertido en el Ãºnico punto real.
+â€”VÃ©gaâ€¦ escÃºchame. TÃº y yoâ€¦
+â€”Â¡TÃš Y YO, NADA! â€”gritÃ³, arrancando su mano de la de Ã©l como si su contacto la quemara.
+Antes de que Ã©l pudiera responder, antes de que pudiera formular un pensamiento, la mano de VÃ©ga se hundiÃ³ en otro bolsillo. SaliÃ³ con un artefacto que parecÃ­a un cristal opaco. Lo apretÃ³.
+No hubo destello, ni explosiÃ³n. El aire en la habitaciÃ³n simplementeâ€¦ cambiÃ³. Se volviÃ³ pesado, denso. Una niebla grisÃ¡cea y silenciosa comenzÃ³ a emanar del propio artefacto, expandiÃ©ndose sin prisa, pero sin pausa, envolviendo todo a su paso. Otro regalo de Lian para borrar una presencia. 
+GakÃ³ avanzÃ³ a ciegas hacia donde creÃ­a que ella estaba.
+â€”Â¡VÃ©ga!
+Lentamente, la niebla comenzÃ³ a disiparse. No se retiraba, se desvanecÃ­a, absorbida por el aire como si nunca hubiera estado allÃ­.
+Cuando la Ãºltima partÃ­cula de bruma desapareciÃ³, GakÃ³ estaba solo.
+Completamente solo.`
+    },
+    {
+      title: "CapÃ­tulo 15",
+      text: `La soledad del tÃºnel era un peso fÃ­sico. GakÃ³ permaneciÃ³ inmÃ³vil, con la respiraciÃ³n entrecortada, la herida del hombro palpitando al ritmo de un corazÃ³n roto. La ausencia de VÃ©ga era mÃ¡s tangible que cualquier presencia. El aire donde ella habÃ­a estado ahora era solo vacÃ­o.
+Se dejÃ³ caer contra la pared, la espalda resbalando hasta quedar sentado en el suelo frÃ­o. La sangre de su hombro formaba un charco lento a su lado. CerrÃ³ los ojos, pero lo Ãºnico que veÃ­a era la mirada de VÃ©gaâ€”ese desprecio puro, esa acusaciÃ³n que no admitÃ­a defensa.
+"Eres el heredero de ese sueÃ±o."
+Las palabras le golpeaban como puÃ±os. Cada revelaciÃ³n era una capa arrancada de la imagen que habÃ­a construido de su madre. La mujer que le contaba historias de detectives. La que preparaba tÃ© en las noches de tormenta. La que...
+Un sonido interrumpiÃ³ su descenso al abismo. Algo raspando. MÃºltiple. Sincronizado.
+GakÃ³ abriÃ³ los ojos justo a tiempo para ver las sombras moverse. EmergÃ­an de las grietas en las paredes, de los conductos de ventilaciÃ³n, de rendijas que no debÃ­an existir. Decenas y cientos de ratas.
+Pero no las mismas que habÃ­a visto antes. Estas eran mÃ¡s grandes, mÃ¡s deformes. El Simplasto-9 las habÃ­a retorcido en formas que desafiaban la lÃ³gica anatÃ³mica. Algunas tenÃ­an extremidades extras brotando de sus costados como ramas de un Ã¡rbol podrido. Otras arrastraban tumores brillantes que palpitaban con luz propia.
+El cÃ­rculo se cerrÃ³ alrededor de Ã©l con la precisiÃ³n de una trampa bien planificada. Sus ojosâ€”algunos mÃºltiples en la misma cabeza, otros ciegos y blanquecinosâ€”lo observaban con una inteligencia perturbadora.
+GakÃ³ intentÃ³ ponerse de pie, pero su cuerpo protestÃ³. La pÃ©rdida de sangre lo habÃ­a debilitado mÃ¡s de lo que querÃ­a admitir. LogrÃ³ incorporarse a medias, apoyÃ¡ndose contra la pared.
+â€”Vamosâ€”murmurÃ³, mÃ¡s para sÃ­ mismo que para ellasâ€”. Acaben con esto de una vez.
+La mÃ¡s cercana, una rata del tamaÃ±o de un perro mediano con mandÃ­bulas dislocadas que colgaban en un Ã¡ngulo imposible dio un paso adelante. Sus garras araÃ±aron el metal con un chirrido que helaba la sangre.
+â€”E-el de-tec-tiveâ€”tartamudeÃ³, la voz distorsionada por la deformidad de su bocaâ€”.
+GakÃ³ apretÃ³ los dientes. No habÃ­a escapatoria. No habÃ­a movimiento heroico que lo salvara esta vez. Solo quedaba esperar el final.
+La rata se abalanzÃ³, sus garras extendidas hacia su garganta. GakÃ³ cerrÃ³ los ojos.
+Entonces, una voz retumbÃ³ en el tÃºnel. Grave. Absoluta. Inconfundible.
+â€”DetÃ©nganse.
+El efecto fue instantÃ¡neo. La rata que estaba en el aire se desplomÃ³ torpemente al suelo, como si un titiritero hubiera cortado sus hilos. Las demÃ¡s se congelaron en sus posiciones, temblando violentamente. No era miedo. Era sumisiÃ³n absoluta.
+GakÃ³ abriÃ³ los ojos y lo vio.
+El Jefe Sombra emergÃ­a de las sombras del fondo del tÃºnel. Los filamentos negros que lo habÃ­an aprisionado colgaban de su cuerpo como ropa destrozada. Algunos aÃºn brillaban dÃ©bilmente, adheridos a su pelaje, pero evidentemente rotos. Su sangre, espesa y oscura como petrÃ³leo, goteaba de docenas de heridas donde los filamentos habÃ­an mordido su carne al romperlos.
+Todas las ratas, sin excepciÃ³n, se postraron. Sus cuerpos deformados se doblaron en reverencias grotescas, las cabezas pegadas al suelo metÃ¡lico. Un coro de gemidos y chillidos brotÃ³ de ellas, no de dolor, sino de... adoraciÃ³n.
+â€”Jjjj-efeâ€”balbuceÃ³ la rata lÃ­der, su voz cargada de devociÃ³n fanÃ¡ticaâ€”. Per-dÃ³n... per-dÃ³n... no sa-bÃ­amos que lo que-rÃ­as vi-vo... â€”
+El Jefe Sombra avanzÃ³ entre el mar de cuerpos postrados con la calma de un dios caminando entre sus fieles. Ni siquiera las mirÃ³. Sus ojos amarillos estaban clavados en GakÃ³.
+â€”RetÃ­renseâ€”ordenÃ³, su voz tan tranquila como letal.
+El efecto fue inmediato. Las ratas se dispersaron como agua derramada, desapareciendo por cada grieta y conducto con una velocidad que contrastaba con sus cuerpos deformes. En cuestiÃ³n de segundos, el tÃºnel quedÃ³ vacÃ­o excepto por los dos felinos. GakÃ³, aÃºn apoyado contra la pared, miraba la escena con una mezcla de horror e incredulidad. Las piezas encajaban de golpe en su mente, formando una imagen que era peor que cualquier pesadilla.
+â€”Las ratas...â€”apenas susurrÃ³â€”. TÃº... tÃº las controlasâ€”.
+El Jefe Sombra se detuvo frente a Ã©l, reduciÃ©ndose ligeramente para quedar mÃ¡s cerca de su nivel. Una sonrisa oscura cruzÃ³ su rostro.
+â€”Â¿Controlarlas?â€”repitiÃ³, casi divertidoâ€”. No, Barello. No las controlo. Soy su creador. Su padre. Su diosâ€”. 
+Se girÃ³ parcialmente, seÃ±alando hacia donde las ratas habÃ­an desaparecido.
+â€”Ellas fueron los primeros experimentos. Los desechos. Cuando tu madre y yo comenzamos con el Simplasto-9, necesitÃ¡bamos sujetos de prueba antes de llevarlo a los felinos. Las ratas de las alcantarillas de Sardina fueron perfectasâ€”Hizo una pausaâ€”. Fueron perfectas hasta que empezaron a mutar de formas... inesperadas. Se volvieron inteligentes. Conscientes. Y sufrÃ­anâ€”.
+Se acercÃ³ mÃ¡s a GakÃ³, sus ojos brillando con algo que rayaba en el orgullo paternal.
+â€”Tu madre querÃ­a exterminarlas. Llamaba a su existencia un "error de cÃ¡lculo". Pero yo... yo vi potencial. Vi lealtad. Vi una especie que, a pesar del dolor constante, del hambre perpetua, de la agonÃ­a de existir en cuerpos que se devoraban a sÃ­ mismos... me seguÃ­a venerando como su salvadorâ€”Su voz se suavizÃ³, casi tiernaâ€”. Porque fui yo quien las liberÃ³. Quien les dio propÃ³sito. Quien convirtiÃ³ su maldiciÃ³n en un armaâ€”.
+GakÃ³ sintiÃ³ nÃ¡useas. No por la herida, sino por la revelaciÃ³n.
+â€”Las redimÃ­, sin mÃ­, serÃ­an solo criaturas retorcidas muriendo en la oscuridad. Con mi guÃ­a, son los ojos y oÃ­dos de todo lo que sucede en las entraÃ±as de Ciudad Sardina. Son mis sÃºbditos mÃ¡s leales. MÃ¡s que cualquier felino. MÃ¡s que cualquier cientÃ­fico en mi nÃ³mina.
+Se inclinÃ³ hasta quedar a la altura de GakÃ³, sus ojos amarillos penetrando en los Ã¡mbar del detective.
+â€”Reconozco ese vacÃ­o en tus ojosâ€”continuÃ³ el Jefe Sombraâ€”. Esa sensaciÃ³n de que todo en lo que creÃ­as era mentira. Que la persona que amabas te traicionÃ³ de la forma mÃ¡s profunda posible.
+ExtendiÃ³ una garra, no amenazante, sino casi... comprensiva.
+â€”VÃ©ga te hizo lo mismo que tu madre me hizo a mÃ­. Te usÃ³. Te mintiÃ³. Y cuando terminÃ³ contigo, te dejÃ³ aquÃ­ para que murierasâ€”.
+GakÃ³ apartÃ³ la mirada, incapaz de sostener esa verdad frente a frente.
+â€”Tu madre y yo trabajamos durante aÃ±osâ€”La voz del gigante se endureciÃ³, cargada de un rencor fermentadoâ€”. Construimos esta visiÃ³n juntos. Ãbamos a transformar Sardina, a convertirla en algo perfecto, en un organismo vivo que trascendiera la podredumbre. Yo... creÃ­ que Ã©ramos socios. Que compartÃ­amos un sueÃ±oâ€”.
+Se girÃ³, dÃ¡ndole la espalda a GakÃ³, mirando hacia la oscuridad del tÃºnel donde sus sÃºbditos aguardaban en las sombras.
+â€”Pero entonces apareciÃ³ Ã©lâ€¦ 636. Y todo cambiÃ³â€”HabÃ­a veneno en cada palabraâ€”. De pronto, las reuniones conmigo eran interrumpidas. Los planos se modificaban sin consultarme. Y cuando finalmente la confrontÃ©, cuando le exigÃ­ una explicaciÃ³n... me mirÃ³ como si fuera un simple instrumento. Una herramienta que habÃ­a cumplido su propÃ³sitoâ€”.
+El Jefe Sombra girÃ³ bruscamente, sus ojos clavÃ¡ndose en GakÃ³ con una intensidad que era casi fÃ­sica.
+â€”Ella eligiÃ³ al detective. Lo eligiÃ³ a Ã©l por encima del proyecto, por encima de todo lo que habÃ­amos construido. Y cuando yo... cuando intentÃ© hacerle ver la traiciÃ³n que eso representaba, me apartÃ³. Me convirtiÃ³ en el villano de su historia romÃ¡nticaâ€”.
+GakÃ³ sintiÃ³ que el mundo se inclinaba. Cada revelaciÃ³n era una pieza del rompecabezas que no querÃ­a completar.
+â€”Â¿QuÃ©... quÃ© hiciste?â€”preguntÃ³, aunque ya conocÃ­a la respuesta.
+Una sonrisa oscura cruzÃ³ el rostro del Jefe Sombra.
+â€”Lo que tenÃ­a que hacer. Si ella no iba a cumplir la visiÃ³n, entonces yo lo harÃ­a solo. El detective 636 era un obstÃ¡culo. Un parÃ¡sito sentimental que la habÃ­a infectado. AsÃ­ que... lo eliminÃ©. UsÃ© una de mis primeras creaciones, una rata alterada genÃ©ticamente para infiltrarse. Ã‰l ni siquiera la vio venirâ€”. 
+Se detuvo, y por primera vez, GakÃ³ vio algo parecido a dolor en esos ojos amarillos.
+â€”Y cuando tu madre descubriÃ³ lo que habÃ­a hecho... cuando lo descubriÃ³, me maldijo. Me llamÃ³ monstruo. AmenazÃ³ con destruir todo el proyecto, con exponer cada secreto, con quemarlo todo antes que dejÃ¡rmelo a mÃ­. AsÃ­ que...
+No terminÃ³ la frase. No hacÃ­a falta.
+GakÃ³ sintiÃ³ que las rodillas le fallaban nuevamente, pero se mantuvo en pie por pura voluntad.
+â€”La matasteâ€”susurrÃ³.
+â€”La detuveâ€”corrigiÃ³ el Jefe Sombraâ€”. Antes de que destruyera dÃ©cadas de trabajo. Antes de que su sentimentalismo arruinara la Ãºnica oportunidad de salvar esta ciudad podrida. Fue rÃ¡pido. MÃ¡s piedad de la que ella me habrÃ­a mostradoâ€”.
+El silencio que siguiÃ³ era denso como el agua. GakÃ³ procesaba, intentando reconciliar la imagen de su madreâ€”la mujer gentil que le contaba historiasâ€”con la arquitecta de esta pesadilla. Y ahora, con una vÃ­ctima del mismo veneno que ella habÃ­a ayudado a crear.
+â€”Â¿Por quÃ© me cuentas esto?â€”preguntÃ³ finalmenteâ€”. Â¿Por quÃ© no simplemente matarme? â€”
+El Jefe Sombra se acercÃ³ mÃ¡s, hasta que estuvieron casi nariz con nariz.
+â€”Porque tÃº llevas la sangre de tu madre. Su genialidad corre por tus venas. Y yo llevo aÃ±os perfeccionando lo que ella comenzÃ³, con un ejÃ©rcito que me obedece sin cuestionarâ€”ExtendiÃ³ una garra, seÃ±alÃ¡ndoloâ€”. Juntos... juntos podrÃ­amos completar la visiÃ³n originalâ€”.
+GakÃ³ levantÃ³ la vista, incrÃ©dulo.
+â€”Â¿VisiÃ³n original?
+â€”El Simplasto-9 funciona, Barello. Solo necesita refinamiento. Y con tu menteâ€”heredada de ella, lo quieras admitir o noâ€”y mi experiencia, con mis sÃºbditos controlando cada rincÃ³n de esta ciudad desde las sombras, podrÃ­amos perfeccionarlo. No solo en Sardina. En todas las ciudades. PodrÃ­amos crear un mundo donde la enfermedad, el hambre, la debilidad... fueran solo recuerdosâ€”.
+ExtendiÃ³ su garra, una oferta y una amenaza a la vez.
+â€”Olvida a VÃ©ga. Olvida el pasado. Ãšnete a mÃ­, y juntos terminaremos lo que tu madre y yo comenzamos. Dominaremos este mundo y lo transformaremos en algo perfecto. Las ratas ya me veneran. Los felinos lo harÃ¡n tambiÃ©n, eventualmente. Y tÃº... tÃº serÃ¡s mi herederoâ€”.
+Desde las sombras, un coro de chillidos resonÃ³ como un cÃ¡ntico religioso. Las ratas no se habÃ­an ido realmente. Solo aguardaban. Esperando la decisiÃ³n de su dios.
+GakÃ³ mirÃ³ la garra extendida. MirÃ³ los ojos amarillos que brillaban con una convicciÃ³n fanÃ¡tica. PensÃ³ en VÃ©ga, en su desprecio. En su madre, en las mentiras. En todo lo que habÃ­a creÃ­do y que ahora yacÃ­a hecho pedazos a sus pies.
+Y en ese momento de duda, de dolor absoluto, el Jefe Sombra supo que habÃ­a encontrado una grieta.
+â€”PiÃ©nsaloâ€”dijo suavementeâ€”. Â¿QuÃ© te queda ahÃ­ afuera? Â¿Una ciudad que te odia? Â¿Una felina que te desprecia? Â¿Recuerdos de una madre que nunca existiÃ³?
+La garra seguÃ­a extendida, esperando. Los chillidos de las ratas se intensificaron, como un coro esperando la ascensiÃ³n de un nuevo profeta.
+â€”AquÃ­, conmigo, puedes tener propÃ³sito. Puedes tener poder. Puedes tener un ejÃ©rcito que jamÃ¡s te traicionarÃ¡. Puedes tener... venganzaâ€”.
+El silencio del tÃºnel era absoluto, roto solo por el goteo constante de agua y sangre, y el murmullo reverencial de cientos de criaturas en la oscuridad. Y GakÃ³ Barello, detective fracturado, hijo de monstruos, se encontrÃ³ mirando esa garra y preguntÃ¡ndose...
+Â¿QuÃ© me queda por perder?`
+    },
+    {
+      title: "CapÃ­tulo 16",
+      text: `La inestabilidad fÃ­sica y emocional instrumentalizaban un son que contaba el tiempo. Ni siquiera el aire era reconfortante de respirar, no aseguraba minutos de vida. En ese panorama de absoluta desolaciÃ³n, la propuesta del Jefe Sombra resultaba la Ãºnica melodÃ­a que parecÃ­a con sentido, un refugio perverso que prometÃ­a alargar su existencia.
+Con un movimiento que le costÃ³ como un acto de pura voluntad contra la gravedad de su derrota, GakÃ³ extendiÃ³ su mano sana. Por un instante que pareciÃ³ congelarse en el tiempo, el Jefe Sombra permitiÃ³ que un destello de triunfo frÃ­o iluminara la profundidad de sus ojos amarillos. CreÃ­a, con la certeza absoluta de un dios, que habÃ­a logrado expandir la grieta en el espÃ­ritu del detective hasta convertirla en una puerta abierta a su voluntad.
+Pero la mano de GakÃ³ no se cerrÃ³ alrededor de la garra para sellar el pacto. En un gesto de rechazo tan sutil como definitivo, la apartÃ³ con suavidad, hasta que la yema de sus dedos apenas rozÃ³ la Ã¡spera y frÃ­a piel del gigante en un adiÃ³s silencioso.
+â€”Noâ€”la palabra emergiÃ³ de sus labios como un susurro ronco, cargado de fatiga, pero con claridadâ€”. No necesito tu ejÃ©rcito. No quiero tu visiÃ³n de un mundo "perfecto" construido sobre una montaÃ±a de cadÃ¡veres.
+Los ojos del Jefe Sombra, aquellos faros de inteligencia antigua y ambiciÃ³n sin lÃ­mites, se estrecharon hasta convertirse en dos rendijas de ira pura. El destello de triunfo se apagÃ³ al instante, reemplazado por un frÃ­o y peligroso desconcierto, la furia de un titÃ¡n que ve cÃ³mo su obra maestra se rebela contra Ã©l.
+â€”Justo como tu madre. El sentimentalismo lleva a la muerte, lo hizo con ella.
+â€”Es mi elecciÃ³n. Lo Ãºnico que me queda que es realmente mÃ­o. TÃº me has robado todo lo demÃ¡s. Mis recuerdos, mi fe, mi paz. Pero esto, no puedes arrebatÃ¡rmeloâ€”.
+Por primera vez, una genuina frustraciÃ³n cruzÃ³ el rostro impasible del Jefe Sombra. Su oferta, calculada para explotar la desesperaciÃ³n mÃ¡s absoluta, habÃ­a sido rechazada.
+â€”Entonces eliges morirâ€”rugiÃ³, con una voz que prometÃ­a una aniquilaciÃ³n lenta y dolorosa.
+â€”Todos morimosâ€”respondiÃ³ GakÃ³, y una sonrisa cansada, terriblemente lÃºcida, se dibujÃ³â€”. Pero mi madre, en medio de todas sus mentiras, me enseÃ±Ã³ una cosa que tÃº nunca entendiste: un detective no sirve al poder. Sirve a la verdad. Y la verdad aquÃ­ no es tu grandiosa visiÃ³n. La verdad es que todo esto es una pesadilla y alguien tiene que despertar de ella, aunque sea el Ãºltimo acto de su vida.
+Antes de que el eco de sus palabras se hubiera disipado, GakÃ³, con un Ãºltimo y desesperado resquicio de energÃ­a que le quedaba en el cuerpo, se lanzÃ³ hacia atrÃ¡s. Se girÃ³ sobre sus talones con una agonÃ­a que le hizo crujir los huesos y se impulsÃ³ con su pierna menos daÃ±ada, alejÃ¡ndose del gigante, adentrÃ¡ndose en la penumbra del tÃºnel de donde el Jefe Sombra habÃ­a emergido. Era la direcciÃ³n opuesta a cualquier salida posible, una huida mÃ¡s profunda hacia la madriguera de la bestia, un rechazo final a la lÃ³gica del escape.
+â€”Â¡INSENSATO!â€”el rugido del Jefe Sombra fue una onda de fuerza fÃ­sica que hizo temblar el suelo bajo los pies de GakÃ³ y estremeciÃ³ las paredes metÃ¡licas del tÃºnel, haciendo llover escombros. 
+Las ratas, al percibir la furia pura de su dios, irrumpieron de sus escondites en un torrente de cuerpos deformes y chirridos frenÃ©ticos. Ya no habÃ­a ritual, ni sumisiÃ³n reverencial. Solo la cacerÃ­a ciega y enfurecida de una manada hambrienta, el instinto primordial de despedazar al que osaba desafiar al objeto de su culto.
+GakÃ³ corriÃ³. O mÃ¡s bien, se arrastrÃ³ en una estampida tambaleante y grotesca. Su visiÃ³n se nublaba con manchas oscuras que bailaban en el borde de su conciencia, su hombro percibÃ­a un dolor ardiente que golpeaba con cada latido desbocado de su corazÃ³n. SabÃ­a, con la certeza absoluta de quien ha tocado su propio lÃ­mite fÃ­sico y mental, que no llegarÃ­a lejos. Pero no estaba corriendo para escapar. Estaba corriendo para elegir su propio final. Para que su muerte, al menos, fuera un acto de voluntad propia, no la consecuencia predecible de una trampa o la misericordia de una garra.
+El tÃºnel se estrechaba, transformÃ¡ndose en un conducto de mantenimiento mÃ¡s angosto, un cilindro de metal opresivo. A ambos lados, los filamentos negros que habÃ­an aprisionado al Jefe Sombra colgaban como enredaderas muertas o se retorcÃ­an con espasmos dÃ©biles, como si la proximidad del gigante les devolviera un vestigio de vida latente. GakÃ³ los esquivÃ³ como pudo, sintiendo el frÃ­o mortÃ­fero que emanaban incluso en su estado de aparente inactividad. DetrÃ¡s, el sonido de cientos de patas raspando el metal, de mandÃ­bulas castaÃ±eteando con ansia, se acercaba a una velocidad aterradora. PodÃ­a sentir el calor de sus cuerpos enfermos acercÃ¡ndose, oler el hedor a enfermedad y bilis que precedÃ­a a la marea de dientes y garras.
+Se encontrÃ³ en una cÃ¡mara circular mÃ¡s pequeÃ±a, un nodo de la infraestructura donde varios conductos convergÃ­an en una maraÃ±a de tuberÃ­as y cables recubiertos de una escarcha negra y aceitosa. En el centro, una columna de metal grueso, la principal de soporte, subÃ­a hacia la oscuridad del techo abovedado. No habÃ­a salida.
+Se girÃ³, apoyando la espalda contra la columna frÃ­a, justo a tiempo de ver la marea de ratas desbordarse en la cÃ¡mara, llenando el espacio reducido con sus cuerpos retorcidos y sus ojos mÃºltiples fijos en Ã©l con un hambre que era casi tangible. Y tras ellas, la silueta masiva del Jefe Sombra bloqueando la Ãºnica entrada. La Ãºnica luz, una bombilla de emergencia tras una rejilla en la pared, parpadeaba sobre la escena con un ritmo cardiaco irregular, tiÃ±endo todo de un color sangriento e intermitente.
+GakÃ³ jadeaba, sin aliento, desangrÃ¡ndose, fÃ­sica y emocionalmente vencido. Sus ojos, nublados por el dolor y la fatiga extrema, barrieron la cÃ¡mara por Ãºltima vez, buscando inÃºtilmente una salida, un milagro. No habÃ­a armas. No habÃ­a hÃ©roes llegando al rescate. SÃ³lo estaban los filamentos negros que colgaban de las paredes y del techo, algunos tan gruesos como su brazo, otros finos y traicioneros como hilos de araÃ±a. Y entonces, su mirada, casi al azar, se fijÃ³ en uno de ellos. Un filamento particularmente grueso, parcialmente desprendido de su anclaje en lo alto del techo, colgaba como una liana pesada y letÃ¡rgica. Su punta libre se balanceaba a apenas un metro de un conjunto de tuberÃ­as corroÃ­das y un panel de control oxidado que parecÃ­a regular el flujo de vapor o energÃ­a residual, con unas cuantas luces Ã¡mbar parpadeando dÃ©bilmente, como las Ãºltimas pulsaciones de un corazÃ³n moribundo.
+Era un plan desesperado. No tenÃ­a otra cosa. Era su Ãºltimo movimiento en el tablero, la ficha que arrojarÃ­a contra el rey.
+Con un grito que era puro desafÃ­o, un sonido ronco brotÃ³ de lo mÃ¡s profundo de su ser. GakÃ³ se impulsÃ³ de la columna. IgnorÃ³ las garras que ya le araÃ±aban las piernas, desgarrando la tela y la carne, los dientes que intentaban morder sus botas y sus tobillos con ansia. Su objetivo era uno solo. CorriÃ³, tropezando, hacia el lado de la cÃ¡mara, esquivando los cuerpos que saltaban hacia su garganta, y con la poca fuerza que le quedaba en sus mÃºsculos exhaustos, saltÃ³. Su mano sana se aferrÃ³ con fuerza de ahogado al filamento suelto.
+Su peso, combinado con el tirÃ³n hacia abajo, fue la gota que colmÃ³ el vaso de la ya comprometida integridad estructural del filamento. Este, cediÃ³ por completo de su sujeciÃ³n en el techo con un chasquido metÃ¡lico seco, como un lÃ¡tigo gigantesco y oscuro impulsado por la gravedad y la desesperaciÃ³n. 
+No golpeÃ³ al Jefe Sombra directamente. El gigante, con desprecio infinito, ni siquiera se inmutÃ³, seguro de su invulnerabilidad. La pesada punta del filamento, cargada con esa energÃ­a oscura y frÃ­a que ahora parecÃ­a latir con vida propia, impactÃ³ de lleno contra el frÃ¡gil panel de control y el entramado de tuberÃ­as.
+El estallido fue instantÃ¡neo y cegador. Una explosiÃ³n de chispas azuladas y blancas, furiosas y violentas, iluminÃ³ la cÃ¡mara por un instante, seguida de un zumbido agudo y ensordecedor. Las luces Ã¡mbar del panel y la Ãºnica luz roja de emergencia se apagaron de golpe, sumiendo todo en una oscuridad absoluta y repentina, rota solo por el destello residual en las retinas y el siseo furioso de vapor a presiÃ³n escapando de una tuberÃ­a reventada.
+Cuando las luces de emergencia se encendieron de nuevo, titilantes y mÃ¡s dÃ©biles, como si tambiÃ©n estuvieran muriendo, la escena habÃ­a cambiado por completo.
+Varios de esos filamentos ahora cargados, como si tuvieran una voluntad vengativa, se enroscaron instantÃ¡neamente alrededor de las extremidades y el torso del Jefe Sombra con una velocidad sobrenatural. El gigante se convulsionÃ³ violentamente, un espasmo antinatural y grotesco que sacudiÃ³ su cuerpo masivo de una manera que desafiÃ³ la fÃ­sica. Un rugido gutural, ahogado y distorsionado por la descarga que le atravesaba, escapÃ³ de su garganta. Sus poderosos mÃºsculos, aquellos que horas antes desgarraban metal como papel, se tensaron en arcos imposibles, paralizados y dominados por el flujo elÃ©ctrico incesante que cocÃ­a sus entraÃ±as.
+GakÃ³, con la visiÃ³n borrosa y sangrante, divisÃ³ los ojos del Jefe Sombra perder su foco en este mundo. La pupila se contrajo hasta casi desaparecer. Los globos oculares giraron hacia arriba en un movimiento involuntario y final, dejando visible los blancos. 
+Sus sÃºbditos, las ratas, presas de un terror primitivo ante el espectÃ¡culo de su creador muriendo de una forma tan vulgar, se dispersaron en todas direcciones, chillando de un pÃ¡nico contagioso, abandonando toda lealtad fanÃ¡tica en el altar del instinto de supervivencia.
+GakÃ³ yaciÃ³ en el suelo, al borde de la inconsciencia, contemplando el cadÃ¡ver humeante de su nÃ©mesis. Pero el restallar de la energÃ­a sobrecargada y el olor a cables fundidos lo alertaron. El sistema iba a explotar.
+Se arrastrÃ³. AvanzÃ³ a travÃ©s de la cÃ¡mara, sorteando los cuerpos de ratas electrocutas y los filamentos aÃºn chisporroteantes. Finalmente, con un Ãºltimo y desesperado esfuerzo, se colÃ³ por la estrecha abertura de la puerta del conducto de mantenimiento y cayÃ³ al tÃºnel principal, unos metros mÃ¡s allÃ¡. 
+En ese instante, la sala estallÃ³ en una furia blanca y naranja.`
+    },
+    {
+      title: "CapÃ­tulo 17",
+      text: `â€œPasaron dos aÃ±os, todavÃ­a estoy aquÃ­. No deberÃ­a. Cada mÃ©dico callejero al que consultÃ© decÃ­a lo mismo: â€œcon ese nivel de exposiciÃ³n al Simplasto-9, Barello, era para que no llegaras ni a fin de mesâ€. Pero acÃ¡ estoy. Caminando. Respirando. Cuando despierto cada maÃ±ana, los pulmones tardan tres segundos en recordar cÃ³mo funciona estar vivo; cuando camino, hay un tirÃ³n en la cadera izquierda que me recuerda a las ratas del subsuelo; cuando cierro los ojos, todavÃ­a escucho a NÃ©ctar en las paredes. No me quejo. Hay gente que tuvo menos suerte. Mucha menos.
+La ciudad, finalmente... cambiÃ³. 
+Se limpiÃ³. No de golpe, no con milagros, no con discursos. Con trabajo y con la cura en mano. EscuchÃ© que lo convirtieron en un legado para todos. Aprendieron a copiar la fÃ³rmula, a estabilizarla, a producir lo que el mundo de arriba daba por imposible. Yo no estuve para eso. Yo estaba ocupadoâ€¦ sobreviviendo. 
+Eventualmente las calles dejaron de llorar. No llueve casi nunca ahora, y cuando lo hace, no arde en la piel. Los niÃ±os empezaron a jugar en los callejones donde antes solo corrÃ­an ratas deformes. Los vendedores cantan de nuevo. Las luces vuelven a funcionar. El aire huele a pescado fresco y no a metÃ¡lico podrido. La gente dejÃ³ de caminar mirando al piso. Algunos inclusoâ€¦ deciden volver a Ciudad Sardina en busca de un futuro.
+Me alegra por ellos. Aunque ese paisaje no es para mÃ­. Estoy hecho de otra cosa. Soy el residuo que queda entre las baldosas cuando la ciudad se barre. Soy lo que la ciudad tira cuando ya no le sirve. Un resto hÃºmedo pegado en las grietas, imposible de arrancar e inÃºtil.
+Mi ruta diaria es simple. Siempre igual. Salgo cuando todos guardan sus sonrisas. Camino las calles menos transitadas, donde mi sombra no molesta a nadie. Esquivo conversaciones que no busco. No quiero llamar la atenciÃ³n. Y termino en el mismo bar que huele a madera hÃºmeda y resignaciÃ³n. Nadie pregunta nada.
+Pero esta noche, una local ilumina la calle. Los cristales limpios. La madera barnizada. La iluminaciÃ³n cÃ¡lida, como si alguien quisiera resucitar un recuerdo. En la parte superior un cartel nuevo â€“ â€œDon DelÃ­aâ€. La fachada estÃ¡ restaurada. No es la madriguera donde se escondÃ­an los secretos del mundo; ahora parece un lugar con vida propia.
+El cuerpo se me detiene sin pedir permiso. La respiraciÃ³n tambiÃ©n. No es un sobresalto. Es otra cosa. Un hundimiento suave, profundo, lento. Un dolor en el pecho tan intenso que podrÃ­a matarme si lo quisiese. Una puntada en lo mas recÃ³ndito de mi corazÃ³n. Un susto de incertidumbre, ansiedad, felicidad y tristeza.
+Y ahÃ­, detrÃ¡s del vidrioâ€¦
+Sentada junto a una mesa pequeÃ±a, de madera pulida. La ilumina una lÃ¡mpara cÃ¡lida que hace que su pelo â€”ese pelo que siempre parecÃ­a vivir al borde del caosâ€” se derrame en ondas suaves sobre sus hombros. Ya no estÃ¡ desordenado por la lluvia ni tironeado por el miedo. Es una cascada oscura y tibia, con mechones que caen con la naturalidad de algo que por fin puede descansar. Un brillo nuevo, casi imperceptible, recorre la textura, un reflejo leve que captura la luz y la doma.
+Sostiene un libro. No lo aprieta. No lo esconde. Lo sostiene como quien sostiene un secreto querido. Sus garras â€”finas y, sÃ­, peligrosas si quisieraâ€” estÃ¡n prolijas, cuidadas, casi delicadas. Pasan las pÃ¡ginas con un ritmo que podrÃ­a marcar el pulso de una ciudad entera. Hay una paciencia en ese gesto que nunca le vi antes. Una calma que no pertenece al mundo que compartimos. Al pasar de hoja, su muÃ±eca dibuja un arco pequeÃ±o y elegante, y uno podrÃ­a creer que ese movimiento fue ensayado una y mil veces solo para ese momento, para ese preciso y exacto momento.
+Sus ojosâ€¦ No los veo completamente. EstÃ¡n inclinados hacia la lectura. Pero incluso desde afuera, puedo ver el leve tensarse de su ceÃ±o cuando encuentra una frase que la muerde, el relajarse de sus pÃ¡rpados cuando una idea le acomoda el alma. Y hay un brillo casi risueÃ±o en las comisuras, una chispa que aparece y desaparece sin aviso. A veces, muy rara vez, una esquina de su boca se curva. No hacia arriba del todo, no una sonrisa plena. Apenas un gesto mÃ­nimo, una insinuaciÃ³n que se asoma por un segundo y se esconde antes de volverse consciente. Es una sonrisa que ella no sabe que tiene. Una sonrisa que nadie mÃ¡s verÃ­a desde aquÃ­ fuera. Una sonrisa demasiado pequeÃ±a, demasiado honesta, demasiado libre para pertenecer a la gata que conocÃ­.
+Y sin embargoâ€¦ ahÃ­ estÃ¡.
+Y yoâ€¦ sigo de pie bajo la llovizna, con el frÃ­o incrustado en mis huesos y las pesadillas siguiÃ©ndome como un olor propio, mirando algo que ya no me pertenece y que, aun asÃ­, me deja quieto como si el mundo entero dependiera de no parpadear. El aire alrededor mÃ­o cambia. Se vuelve mÃ¡s livianoâ€¦ pero tambiÃ©n mÃ¡s pesado. MÃ¡s precisoâ€¦ pero mÃ¡s borroso. MÃ¡s realâ€¦ pero parece un sueÃ±o.  MÃ¡s cercanoâ€¦ pero inalcanzable.
+Acercarme. Entrar. Llamar su nombre. Preguntar quÃ© lee. Sentarme frente a ella, empapando el piso con mis pasos mojados. Que sus ojos se encuentren con los mÃ­os. Que diga mi nombre como si todavÃ­a significara algo. Que la noche sea larga. Que mis manos dejen de temblar. Que no tenga que irme nunca.
+La observo un instante mÃ¡s. Ella sigue leyendo, ajena a todo. Respira tranquila. El mundo afuera podrÃ­a colapsar y ella seguirÃ­a ahÃ­, sosteniendo suavemente ese libro como si la historia misma dependiera de que la termine ahÃ­ mismo.
+Mi puÃ±o se aprieta, mi pecho se estremece, mi cara se disocia, como si cada mÃºsculo quisiera ir en una direcciÃ³n distinta. Sabiendo lo que soy, el peso que arrastro, que no cambia, y nunca va a cambiar. Y lo Ãºnico que queda por hacer es seguir caminando mientras el viento trae olor a madera vieja y alcohol barato en cada paso, como si la ciudad quisiera recordarme dÃ³nde pertenezco.
+Apoyo la mano en el picaporte. La barra me recibe con su luz tenue y su silencio acostumbrado. Me siento.
+Pido un whisky fuerte, uno que me arda la garganta y me raspe el alma.
+La librerÃ­a queda atrÃ¡s.
+Ella queda atrÃ¡s.
+Y eso alcanza.â€`
+    }
+  ],
+    media: [
+    {
+      src: "/media/Gako y Vega.jpeg",
+      alt: "Gako y Vega",
+      caption: "Gako y Vega",
+      type: "image"
+    },
+    {
+      src: "/media/Gako y Vega Red.jpeg",
+      alt: "Gako y Vega Red",
+      caption: "Gako y Vega Red",
+      type: "image"
+    },
+    {
+      src: "/media/Gako y Vega inMotion.jpeg",
+      alt: "Gako y Vega inMotion",
+      caption: "Gako y Vega inMotion",
+      type: "image"
+    },
+    {
+      src: "/media/Bailame Lento - V?ga.mpeg",
+      caption: "Bailame Lento - V?ga",
+      title: "Bailame Lento - V?ga",
+      type: "audio"
+    },
+    {
+      src: "/media/Ciudad Sardina - V?ga.mpeg",
+      caption: "Ciudad Sardina - V?ga",
+      title: "Ciudad Sardina - V?ga",
+      type: "audio"
+    },
+    {
+      src: "/media/Detras Tuyo - Barello.mpeg",
+      caption: "Detras Tuyo - Barello",
+      title: "Detras Tuyo - Barello",
+      type: "audio"
+    },
+    {
+      src: "/media/Gako_Barello_y_Madame_Vega.docx",
+      title: "Libro en Word (.docx)",
+      type: "file"
+    }
+  ]
+};
+
+export default BOOK_CONTENT;
+

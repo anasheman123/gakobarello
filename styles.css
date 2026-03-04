@@ -1,0 +1,167 @@
+﻿:root {
+  --bg-1: #f1e7d8;
+  --bg-2: #fdf8f2;
+  --ink: #2a2621;
+  --accent: #a6522b;
+  --paper: #fff9ef;
+  --paper-edge: #e2d6c5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Merriweather", serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 10% 15%, rgba(166, 82, 43, 0.15), transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(42, 38, 33, 0.08), transparent 45%),
+    linear-gradient(160deg, var(--bg-1), var(--bg-2));
+}
+
+.app {
+  width: min(980px, 92vw);
+  margin: 2rem auto 3rem;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.subtitle {
+  margin-top: 0.4rem;
+  opacity: 0.8;
+}
+
+.book-shell {
+  margin-top: 1.5rem;
+}
+
+.book {
+  position: relative;
+  min-height: 370px;
+  border-radius: 18px;
+  background: linear-gradient(90deg, var(--paper-edge), var(--paper) 8%, var(--paper) 92%, var(--paper-edge));
+  box-shadow: 0 20px 40px rgba(22, 16, 9, 0.2);
+  overflow: hidden;
+}
+
+.page {
+  min-height: 370px;
+  padding: clamp(1.1rem, 2vw, 2rem);
+  transform-origin: left center;
+}
+
+.page h3 {
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.page p {
+  line-height: 1.8;
+  white-space: pre-line;
+}
+
+.page.turn-next {
+  animation: turnNext 550ms ease;
+}
+
+.page.turn-prev {
+  animation: turnPrev 550ms ease;
+}
+
+@keyframes turnNext {
+  from { transform: perspective(900px) rotateY(0deg); opacity: 1; }
+  45% { transform: perspective(900px) rotateY(-12deg); opacity: 0.35; }
+  to { transform: perspective(900px) rotateY(0deg); opacity: 1; }
+}
+
+@keyframes turnPrev {
+  from { transform: perspective(900px) rotateY(0deg); opacity: 1; }
+  45% { transform: perspective(900px) rotateY(12deg); opacity: 0.35; }
+  to { transform: perspective(900px) rotateY(0deg); opacity: 1; }
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.9rem;
+}
+
+button {
+  border: 0;
+  background: var(--accent);
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+button[disabled] {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.media-zone {
+  margin-top: 2rem;
+  background: rgba(255, 249, 239, 0.8);
+  border: 1px solid rgba(42, 38, 33, 0.08);
+  border-radius: 16px;
+  padding: 1rem;
+}
+
+.media-head h2 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.media-grid {
+  margin-top: 0.8rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 0.8rem;
+}
+
+.media-card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(42, 38, 33, 0.15);
+}
+
+.media-card img,
+.media-card video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.media-card p {
+  margin: 0;
+  padding: 0.6rem;
+  font-size: 0.9rem;
+}
+
+.empty-media {
+  opacity: 0.75;
+}
+
+@media (max-width: 640px) {
+  .book,
+  .page {
+    min-height: 310px;
+  }
+}
