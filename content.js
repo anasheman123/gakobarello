@@ -704,6 +704,12 @@ Y eso alcanza."`
       type: "image"
     },
     {
+      src: "/media/Salida Bar.jpeg",
+      alt: "Salida Bar",
+      caption: "Salida Bar",
+      type: "image"
+    },
+    {
       src: "/media/bailame-lento-vega.mp3",
       caption: "Báilame Lento - Véga",
       title: "Báilame Lento - Véga",

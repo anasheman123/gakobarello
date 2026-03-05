@@ -52,6 +52,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 0.5rem 0;
+  overflow-x: auto;
 }
 
 .flipbook {
@@ -262,10 +263,36 @@ button[disabled] {
 @media (max-width: 640px) {
   .app {
     width: 96vw;
+    margin-top: 1rem;
   }
 
   .book-stage {
     padding: 0;
+  }
+
+  .controls {
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin-top: 0.65rem;
+  }
+
+  .controls span {
+    width: 100%;
+    text-align: center;
+    order: -1;
+  }
+
+  button {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem;
+  }
+
+  .media-zone {
+    padding: 0.85rem;
+  }
+
+  .tracks-grid {
+    grid-template-columns: 1fr;
   }
 }
 

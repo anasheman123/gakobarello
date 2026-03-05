@@ -1,10 +1,26 @@
-﻿import { useEffect, useMemo, useRef, useState } from "react";
+﻿import { useEffect, useRef, useState } from "react";
 import HTMLFlipBook from "react-pageflip";
 import book from "./content";
 
-const PAGE_WIDTH = 520;
-const PAGE_HEIGHT = 720;
+const DESKTOP_PAGE_WIDTH = 520;
+const DESKTOP_PAGE_HEIGHT = 720;
 const PAGE_PADDING = 24;
+const MOBILE_BREAKPOINT = 768;
+
+function getBookDimensions() {
+  if (typeof window === "undefined") {
+    return { width: DESKTOP_PAGE_WIDTH, height: DESKTOP_PAGE_HEIGHT, isMobile: false };
+  }
+
+  const isMobile = window.innerWidth <= MOBILE_BREAKPOINT;
+  if (!isMobile) {
+    return { width: DESKTOP_PAGE_WIDTH, height: DESKTOP_PAGE_HEIGHT, isMobile: false };
+  }
+
+  const width = Math.max(260, Math.min(window.innerWidth - 28, 380));
+  const height = Math.round(width * 1.36);
+  return { width, height, isMobile: true };
+}
 
 function splitParagraphs(text) {
   return String(text || "")
@@ -84,13 +100,13 @@ function buildFlowBlocks(chapters) {
   return blocks;
 }
 
-function createMeasureContainer() {
+function createMeasureContainer(pageWidth, pageHeight) {
   const el = document.createElement("div");
   el.style.position = "fixed";
   el.style.left = "-10000px";
   el.style.top = "0";
-  el.style.width = `${PAGE_WIDTH - PAGE_PADDING * 2}px`;
-  el.style.height = `${PAGE_HEIGHT - PAGE_PADDING * 2 - 8}px`;
+  el.style.width = `${pageWidth - PAGE_PADDING * 2}px`;
+  el.style.height = `${pageHeight - PAGE_PADDING * 2 - 8}px`;
   el.style.overflow = "hidden";
   el.style.fontFamily = '"Merriweather", Georgia, serif';
   el.style.fontSize = "16px";
@@ -125,11 +141,11 @@ function renderBlocksForMeasure(container, blocks) {
   });
 }
 
-function paginateFlow(chapters) {
+function paginateFlow(chapters, pageWidth = DESKTOP_PAGE_WIDTH, pageHeight = DESKTOP_PAGE_HEIGHT) {
   if (!chapters || chapters.length === 0) return [];
 
   const blocks = buildFlowBlocks(chapters);
-  const measure = createMeasureContainer();
+  const measure = createMeasureContainer(pageWidth, pageHeight);
   const pages = [];
   let current = [];
 
@@ -251,13 +267,20 @@ export default function App() {
   const downloads = media.filter((item) => item.type === "file");
   const [current, setCurrent] = useState(0);
   const [pages, setPages] = useState([]);
+  const [bookSize, setBookSize] = useState(getBookDimensions);
   const [lightboxImage, setLightboxImage] = useState(null);
   const flipBookRef = useRef(null);
   const bookShellRef = useRef(null);
 
   useEffect(() => {
-    setPages(paginateFlow(chapterPages));
-  }, [chapterPages]);
+    const updateSize = () => setBookSize(getBookDimensions());
+    window.addEventListener("resize", updateSize);
+    return () => window.removeEventListener("resize", updateSize);
+  }, []);
+
+  useEffect(() => {
+    setPages(paginateFlow(chapterPages, bookSize.width, bookSize.height));
+  }, [chapterPages, bookSize.width, bookSize.height]);
 
   useEffect(() => {
     if (!lightboxImage) return undefined;
@@ -302,11 +325,11 @@ export default function App() {
           <div className="book-stage">
             <HTMLFlipBook
               ref={flipBookRef}
-              width={PAGE_WIDTH}
-              height={PAGE_HEIGHT}
+              width={bookSize.width}
+              height={bookSize.height}
               size="fixed"
               maxShadowOpacity={0.35}
-              showCover={true}
+              showCover={!bookSize.isMobile}
               mobileScrollSupport={false}
               onFlip={onFlip}
               className="flipbook"
